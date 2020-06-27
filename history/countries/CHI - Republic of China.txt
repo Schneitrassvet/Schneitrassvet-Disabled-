@@ -1,0 +1,28 @@
+set_politics = {	
+	ruling_party = authoritarian
+	last_election = "1962.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Chang Kai-Shek"
+	desc = "POLITICS_CHANG_KAI_SHEK_DESC"
+	picture = "portrait_chi_chang_kai_shek.dds"
+	expire = "1989.1.1"
+	ideology = authoritarian_subtype
+	traits = {
+	}
+}
+
+set_popularities = {
+	national_socialism = 0
+    marxism = 0
+    liberal_socialism = 10
+    social_democracy = 13
+    liberal_democracy = 20
+    conservatism = 10
+    authoritarian = 37
+    state_totalism = 10
+	paternal_autocracy = 0
+}

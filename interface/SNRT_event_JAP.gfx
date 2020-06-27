@@ -1,0 +1,25 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_JAP_report_event_226"
+		texturefile = "gfx/event_pictures/JAP/JAP_report_226.tga"
+		}
+	spriteType = {
+		name = "GFX_JAP_report_socialist_rally"
+		texturefile = "gfx/event_pictures/JAP/JAP_report_socialist_rally.tga"
+		}
+	spriteType = {
+		name = "GFX_JAP_report_socialist_rally_2"
+		texturefile = "gfx/event_pictures/JAP/JAP_report_socialist_rally_2.tga"
+		}
+	spriteType = {
+		name = "GFX_JAP_report_japanese_soldiers"
+		texturefile = "gfx/event_pictures/JAP/JAP_report_japanese_soldiers.tga"
+		}
+	spriteType = {
+		name = "GFX_JAP_report_welcome_lads"
+		texturefile = "gfx/event_pictures/JAP/JAP_report_welcome.tga"
+		}
+		
+}
+	

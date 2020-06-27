@@ -1,0 +1,80 @@
+
+bitmapfonts = {
+	### NORMAL
+	bitmapfont = {
+		name = "gar_35"
+		path = "gfx/fonts/gar_35"
+		color = 0xffffffff
+		
+		textcolors = {
+			z = { 165 25 25 }
+			x = { 218 13 13 }
+			c = { 235 92 92 }
+			v = { 245 179 179 }
+			b = { 255 203 18 }
+			n = { 75 147 174 }
+			m = { 137 137 137 }
+			a = { 37 49 90 }
+			p = { 255 255 000 }
+		}
+		
+	}
+	bitmapfont = {
+		name = "gar_40"
+		path = "gfx/fonts/gar_40"
+		color = 0xffffffff
+		
+		textcolors = {
+			z = { 165 25 25 }
+			x = { 218 13 13 }
+			c = { 235 92 92 }
+			v = { 245 179 179 }
+			b = { 255 203 18 }
+			n = { 75 147 174 }
+			m = { 137 137 137 }
+			a = { 37 49 90 }
+			p = { 255 255 000 }
+		}
+		
+	}
+
+	#Small debug font
+
+	bitmapfont = {
+		name = "garamond_12"
+		path = "gfx/fonts/garamond_12"
+		color = 0xffffffff
+		
+		textcolors = {
+			z = { 165 25 25 }
+			x = { 218 13 13 }
+			c = { 235 92 92 }
+			v = { 245 179 179 }
+			b = { 255 203 18 }
+			n = { 75 147 174 }
+			m = { 137 137 137 }
+			a = { 37 49 90 }
+			p = { 255 255 000 }
+		}
+		
+	}
+	
+	bitmapfont = {
+		name = "cw_3d_debug"
+		path = "gfx/fonts/garamond_12"
+		color = 0xffffffff
+		
+		textcolors = {
+			z = { 165 25 25 }
+			x = { 218 13 13 }
+			c = { 235 92 92 }
+			v = { 245 179 179 }
+			b = { 255 203 18 }
+			n = { 75 147 174 }
+			m = { 137 137 137 }
+			a = { 37 49 90 }
+			p = { 255 255 000 }
+		}
+		
+	}
+}

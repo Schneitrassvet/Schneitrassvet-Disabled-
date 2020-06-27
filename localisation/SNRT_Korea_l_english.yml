@@ -1,0 +1,73 @@
+﻿l_english:
+ 
+ ### Parties ###
+  KOR_national_socialism_party:0 "조선공산당(강)"
+  KOR_national_socialism_party_long:0 "조선공산당 강경파"
+  KOR_marxism_party:0 "조선공산당(온)"
+  KOR_marxism_party_long:0 "조선공산당 온건파"
+  KOR_liberal_socialism_party:0 "아나키스트 연맹"
+  KOR_liberal_socialism_party_long:0 "아나키스트 연맹"
+  KOR_social_democracy_party:0 "한인사회당"
+  KOR_social_democracy_party_long:0 "한인사회당"
+  KOR_liberal_democracy_party:0 "신한청년당(급)"
+  KOR_liberal_democracy_party_long:0 "신한청년당 급진파"
+  KOR_conservatism_party:0 "신한청년당(온)"
+  KOR_conservatism_party_long:0 "신한청년당 온건파"
+  KOR_authoritarian_party:0 "황국협회"
+  KOR_authoritarian_party_long:0 "황국협회"
+  KOR_state_totalism_party:0 "민총련"
+  KOR_state_totalism_party_long:0 "국민총력조선연맹"
+  
+ 
+ ### Ideas ###
+ 
+  KOR_corrupt_government_idea:0 "부패한 정부"
+  KOR_corrupt_government_idea_desc:0 "경제는 과거에 비해 발달하였지만 관료들의 사고방식은 여전히 구시대에 머물러 있습니다. 이러한 괴릐는 우리 사회의 건전성에 심각한 악영향을 미치고 있습니다."
+  KOR_legacy_of_old_era_idea:0 "구시대의 유산"
+  KOR_legacy_of_old_era_idea_desc:0 "시대에 뒤쳐진 전통들이 아직도 한국사회에서 힘을 가지고 있습니다. 하지만 젊은이들은 서구적 삶을 동경하며, 부녀자들은 자신들의 권리가 신장되기를 원하고 있습니다. 이러한 갈등은 우리 사회의 통합을 저해하고 있습니다."
+  KOR_broken_economy_idea:0 "낙후된 경제"
+  KOR_broken_economy_idea_desc:0 "많은 이들이 우리의 경제가 과거에 비해 개선됐다는 것은 인정합니다. 하지만 우리 경제에는 아직도 많은 문제점이 산적해 있습니다. 전반적인 산업 현장의 설비가 매우 열악하며, 산업 기술의 수준은 아직도 낮습니다."
+  KOR_influence_of_chaebol_idea:0 "재벌의 영향력"
+  KOR_influence_of_chaebol_idea_desc:0 "지난 십수년간 한국의 경제는 재벌의 투자를 통해 성장해 왔습니다. 하지만 재벌 중심의 경제로 인하여 국가 전체의 부가 소수의 재벌에게 쏠리고 성장이 정체는 되는 현상이 나타나고 있습니다."
+  KOR_influence_of_russia_idea:0 "러시아의 영향력"
+  KOR_influence_of_russia_idea_desc:0 "러일전쟁 이후, 러시아는 우리나라에 고문관을 파견하여 우리의 내정에 간섭하고 있습니다. 러시아의 도움이 경제 발전과 육군 근대화에 도움을 주는 것은 사실이지만, 장점만 있는 것은 아닐 것입니다."
+  KOR_less_advanced_army_idea:0 "후진적 군대"
+  KOR_less_advanced_army_idea_desc:0 "대한제국군은 그 규모에 비해 질적으로 매우 부족합니다. 장교들은 이를 고쳐나가고자 하지만, 제국의 예산은 부패로 인하여 항상 부족합니다. 이로 인해 병사들의 대우와 무기의 질은 매우 열악합니다."
+  KOR_the_unsan_gold_mine_idea:0 "운산 금광"
+  KOR_the_unsan_gold_mine_idea_desc:0 "운산금광의 금은 우리 경제에 도움을 주고 있습니다. 아직 더 나올 금이 있을까요?"
+ 
+ 
+ 
+ #Political Decision
+
+  KOR_influence_management_decision:0 "타국의 영향력"
+  KOR_influence_management_decision_desc:0 "러시아의 영향력 : §Y[?KOR.KOR_russia_influence]§!\n\n중국의 영향력 : §Y[?KOR.KOR_china_influence]§!"
+  KOR_influence_management_decision_russia:0 "러시아와의 친선"
+  KOR_influence_management_decision_japan:0 "일본과의 친선"
+  KOR_influence_management_decision_china:0 "국민당과의 친선"
+  KOR_debt_management_decision:0 "부채 관리 시스템"
+  KOR_debt_management_decision_desc:0 "우리가 타국에 빌려준 금액 : §Y[?KOR.KOR_other_from_debt]§!\n\n우리가 러시아로부터 빌린 빚 : §Y[?KOR.KOR_debt_from_russia]§!\n\n우리가 미국으로부터 빌린 빚 : §Y[?KOR.KOR_debt_from_usa]§!\n\n우리가 오스트리아로부터 빌린 빚 : §Y[?KOR.KOR_debt_from_austria]§!\n\n우리가 독일로부터 빌린 빚 : §Y[?KOR.KOR_debt_from_germany]§!"
+  KOR_debt_management_russia:0 "러시아에게 진 빚 갚기"
+  KOR_debt_management_usa:0 "미국에게 진 빚 갚기"
+  KOR_debt_management_austria:0 "오스트리아에게 진 빚 갚기"
+  KOR_debt_management_germany:0 "독일에게 진 빚 갚기"
+  KOR_debt_management_to_owe_russia:0 "러시아에게서 돈 빌리기"
+  KOR_debt_management_to_owe_usa:0 "미국에게서 돈 빌리기"
+  KOR_debt_management_to_owe_austria:0 "오스트리아에게서 돈 빌리기"
+  KOR_debt_management_to_owe_germany:0 "독일에게서 돈 빌리기"
+  KOR_debt_management_bond_issue:0 "국채 발행"
+
+ #Custom Tool Tip
+  KOR_russia_influence_add_4:0 "러시아와의 관계가 §Y4§!향상됩니다."
+  KOR_china_influence_add_4:0 "국민당과의 관계가 §Y4§!향상됩니다."
+  KOR_russia_influence_lose_2:0 "러시아와의 관계가 §Y2§!감소됩니다."
+  KOR_china_influence_lose_2:0 "국민당과의 관계가 §Y2§!감소됩니다."
+  KOR_debt_clear_russia:0 "우리나라가 러시아로부터 진 빚을 §Y10§! 청산합니다."
+  KOR_debt_clear_usa:0 "우리나라가 미국으로부터 진 빚을 §Y10§! 청산합니다."
+  KOR_debt_clear_austria:0 "우리나라가 오스트리아로부터 진 빚을 §Y10§! 청산합니다."
+  KOR_debt_clear_germany:0 "우리나라가 독일로부터 진 빚을 §Y10§! 청산합니다."
+  KOR_to_owe_russia:0 "러시아로부터 §Y5§!만큼의 돈을 빌립니다."
+  KOR_to_owe_usa:0 "미국으로부터 §Y5§!만큼의 돈을 빌립니다."
+  KOR_to_owe_austria:0 "오스트리아로부터 §Y5§!만큼의 돈을 빌립니다."
+  KOR_to_owe_germany:0 "독일로부터 §Y5§!만큼의 돈을 빌립니다."
+  KOR_other_from_debt_tooltip:0 "채권을 발행하여 §Y5§!만큼의 돈을 얻습니다."

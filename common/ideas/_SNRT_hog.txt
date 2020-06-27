@@ -1,0 +1,386 @@
+ideas = {
+
+	head_of_government = {
+		JAP_MCMH_hog_nso ={
+			allowed = { original_tag = JAP }
+			visible = { has_country_flag = mcmh_minister }
+			available = {
+				always = no
+				custom_trigger_tooltip = {
+					tooltip = ministers_available
+				}
+			}
+			traits = {
+				head_of_government
+				national_socialist_trait
+				mcmh
+				}
+			}
+		
+		JAP_MCMH_hog_mar = {
+			allowed = { original_tag = JAP }
+			visible = { has_country_flag = mcmh_minister }
+			available = {
+				always = no
+				custom_trigger_tooltip = {
+					tooltip = ministers_available
+				}
+			}
+			traits = {
+				head_of_government
+				marxist_trait
+				mcmh
+				}
+			}
+			
+		JAP_MCMH_hog_lso = {
+			allowed = { original_tag = JAP }
+			visible = { has_country_flag = mcmh_minister }
+			available = {
+				always = no
+				custom_trigger_tooltip = {
+					tooltip = ministers_available
+				}
+			}
+			traits = {
+				head_of_government
+				liberal_socialist_trait
+				mcmh
+				}
+			}
+			
+		JAP_MCMH_hog_sde = {
+			allowed = { original_tag = JAP }
+			visible = { has_country_flag = mcmh_minister }
+			available = {
+				always = no
+				custom_trigger_tooltip = {
+					tooltip = ministers_available
+				}
+			}
+			traits = {
+				head_of_government
+				social_democrat_trait
+				mcmh
+				}
+			}
+			
+		JAP_MCMH_hog_lde = {
+			allowed = { original_tag = JAP }
+			visible = { has_country_flag = mcmh_minister }
+			available = {
+				always = no
+				custom_trigger_tooltip = {
+					tooltip = ministers_available
+				}
+			}
+			traits = {
+				head_of_government
+				liberal_democrat_trait
+				mcmh
+				}
+			}
+			
+		JAP_MCMH_hog_con = {
+			allowed = { original_tag = JAP }
+			visible = { has_country_flag = mcmh_minister }
+			available = {
+				always = no
+				custom_trigger_tooltip = {
+					tooltip = ministers_available
+				}
+			}
+			traits = {
+				head_of_government
+				conservative_trait
+				mcmh
+				}
+			}
+			
+		JAP_MCMH_hog_aut = {
+			allowed = { original_tag = JAP }
+			visible = { has_country_flag = mcmh_minister }
+			available = {
+				always = no
+				custom_trigger_tooltip = {
+					tooltip = ministers_available
+				}
+			}
+			traits = {
+				head_of_government
+				authoritarian_trait
+				mcmh
+				}
+			}
+		
+		JAP_MCMH_hog_stt = {
+			allowed = { original_tag = JAP }
+			visible = { has_country_flag = mcmh_minister }
+			available = {
+				always = no
+				custom_trigger_tooltip = {
+					tooltip = ministers_available
+				}
+			}
+			traits = {
+				head_of_government
+				state_totalist_trait
+				mcmh
+				}
+			}
+JAP_Asanuma_Inejiro_hog_nso = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        national_socialist_trait
+        
+        }
+    }
+JAP_Fukumoto_Kazuo_hog_nso = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        national_socialist_trait
+        
+        }
+    }
+JAP_Katayama_Sen_hog_nso = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        national_socialist_trait
+        
+        }
+    }
+JAP_Kita_Ikki_hog_nso = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        national_socialist_trait
+        
+        }
+    }
+JAP_Okawa_Shumei_hog_nso = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        national_socialist_trait
+        
+        }
+    }
+JAP_Tokuda_Kyuichi_hog_nso = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        national_socialist_trait
+        
+        }
+    }
+JAP_Abe_Isoo_hog_mar = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        marxist_trait
+        
+        }
+    }
+JAP_Arahata_Kanson_hog_mar = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        marxist_trait
+        
+        }
+    }
+JAP_Kawakami_Jotaro_hog_mar = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        marxist_trait
+        
+        }
+    }
+JAP_Nishio_Suehiro_hog_mar = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        marxist_trait
+        
+        }
+    }
+JAP_Nosaka_Sanzo_hog_mar = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        marxist_trait
+        
+        }
+    }
+JAP_Sasaki_Kozo_hog_mar = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        marxist_trait
+        
+        }
+    }
+JAP_Yamakawa_Hitoshi_hog_mar = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        marxist_trait
+        
+        }
+    }
+JAP_Konoe_Fumimaro_hog_lso = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        liberal_socialist_trait
+        
+        }
+    }
+JAP_Kotoku_Shusui_hog_lso = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        liberal_socialist_trait
+        
+        }
+    }
+JAP_Nakae_Chomin_hog_lso = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        liberal_socialist_trait
+        
+        }
+    }
+JAP_Oyama_Ikuo_hog_lso = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        liberal_socialist_trait
+        
+        }
+    }
+JAP_Suzuki_Mosaburo_hog_lso = {
+    allowed = { original_tag = JAP }
+    available = {
+        always = no
+        custom_trigger_tooltip = {
+            tooltip = ministers_available
+        }
+    }
+    traits = {
+        head_of_government
+        liberal_socialist_trait
+        
+        }
+    }
+	
+	}
+		
+}

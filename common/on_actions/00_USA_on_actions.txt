@@ -1,0 +1,13 @@
+	#Not run on a specific country.
+on_actions = {
+	on_startup = {
+		effect = {
+			USA = {
+				set_variable = { USA_governor = 10 }
+				set_variable = { USA_military = 10 }
+				set_variable = { USA_social = 10 }
+				set_variable = { USA_league = 10 }
+			}
+		}
+	}
+}

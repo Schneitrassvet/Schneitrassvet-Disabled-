@@ -1,0 +1,25 @@
+
+state={
+	id=1135
+	name="STATE_1135"
+
+	history={
+		owner = AZR
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+		}
+		add_core_of = AZR
+		add_core_of = PER
+
+	}
+
+	provinces={
+		4825 12793 
+	}
+	manpower=35007
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

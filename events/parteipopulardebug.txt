@@ -1,0 +1,25 @@
+add_namespace = popdebug
+
+country_event = {
+	id = popdebug.1
+	title = popdebug.1.t
+	desc = popdebug.1.d
+	picture = GFX_JAP_report_socialist_rally
+	
+	option = {
+		ruling_party_coalition_pop_cal = yes
+	}
+}
+
+country_event = {
+	id = popdebug.2
+	title = popdebug.2.t
+	desc = popdebug.2.d
+	picture = GFX_JAP_report_socialist_rally
+	
+	option = {
+		set_country_flag = coalition_national_socialism
+	}
+}
+
+	

@@ -1,0 +1,6 @@
+ideas = {
+
+	head_of_intelligence = {
+	}
+		
+}

@@ -1,0 +1,49 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_coalition_icon"
+		texturefile = "gfx/interface/ideologies/coalition_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_national_socialism_small"
+		texturefile = "gfx/interface/ideologies/national_socialism_group_small.dds"
+	}
+	spriteType = {
+		name = "GFX_marxism_small"
+		texturefile = "gfx/interface/ideologies/marxism_group_small.dds"
+	}
+	spriteType = {
+		name = "GFX_liberal_socialism_small"
+		texturefile = "gfx/interface/ideologies/liberal_socialism_group_small.dds"
+	}
+	spriteType = {
+		name = "GFX_social_democracy_small"
+		texturefile = "gfx/interface/ideologies/social_democracy_group_small.dds"
+	}
+	spriteType = {
+		name = "GFX_liberal_democracy_small"
+		texturefile = "gfx/interface/ideologies/liberal_democracy_group_small.dds"
+	}
+	spriteType = {
+		name = "GFX_conservatism_small"
+		texturefile = "gfx/interface/ideologies/conservatism_group_small.dds"
+	}
+	spriteType = {
+		name = "GFX_authoritarian_small"
+		texturefile = "gfx/interface/ideologies/authoritarian_group_small.dds"
+	}
+	spriteType = {
+		name = "GFX_paternal_autocracy_small"
+		texturefile = "gfx/interface/ideologies/paternal_autocracy_small.dds"
+	}
+	spriteType = {
+		name = "GFX_state_totalism_small"
+		texturefile = "gfx/interface/ideologies/state_totalism_group_small.dds"
+	}
+	spriteType = {
+		name = "GFX_futurism_small"
+		texturefile = "gfx/interface/ideologies/futurism_small.dds"
+	}
+
+}
+

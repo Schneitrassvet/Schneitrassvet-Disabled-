@@ -1,0 +1,122 @@
+ideas = {
+
+	country = {
+		KOR_corrupt_government_idea = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			removal_cost = -1
+			picture = generic_disjointed_gov
+			
+			modifier = {
+				stability_factor = -0.10
+				consumer_goods_factor = 0.05
+				political_power_gain = -0.6
+				political_advisor_cost_factor = 0.5
+			}
+		}
+		
+		KOR_legacy_of_old_era_idea = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			removal_cost = -1
+			picture = undisturbed_isolation
+			
+			modifier = {
+				stability_factor = -0.20
+				war_support_factor = -0.10
+			}
+		}
+		
+		KOR_broken_economy_idea = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			removal_cost = -1
+			picture = KOR_broken_economy
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.35
+				production_factory_efficiency_gain_factor = -0.35
+			}
+		}
+		
+		KOR_influence_of_chaebol_idea = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			removal_cost = -1
+			picture = generic_foreign_capital
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		KOR_influence_of_russia_idea = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			removal_cost = -1
+			picture = KOR_russia_sphere
+			
+			research_bonus = {
+				land_doctrine = 0.05
+				industry = 0.05
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = 0.10				
+			}
+			targeted_modifier = {
+					tag = SOV
+					trade_opinion_factor = 0.5
+			}
+		}
+		
+		KOR_less_advanced_army_idea = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			removal_cost = -1
+			picture = KOR_qt_army
+			
+			modifier = {
+				war_support_factor = -0.10
+				army_morale_factor = -0.20
+				army_org_factor = -0.20
+				army_attack_factor = -0.20
+				army_defence_factor = -0.20
+				army_speed_factor = -0.20
+			}
+		}
+		
+		KOR_the_unsan_gold_mine_idea = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			removal_cost = -1
+			picture = KOR_unsan_mine
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+	}
+}

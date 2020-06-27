@@ -1,0 +1,25 @@
+
+state={
+	id=419
+	name="STATE_419"
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			1896 3 
+		}
+		add_core_of = PER
+
+	}
+
+	provinces={
+		1896 4755 12861 13120 
+	}
+	manpower=1054054
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

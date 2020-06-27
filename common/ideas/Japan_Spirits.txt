@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+		JAP_nation_divided = {
+			allowed = {always = no}
+			modifier = { 
+				stability_factor = -0.40 
+				conscription_factor = -0.50 
+				}
+			removal_cost = -1
+			picture = JAP_nation_divided
+		}
+		
+		JAP_country_in_flames = {
+			allowed = {always = no}
+			modifier = {
+				stability_factor = -0.40
+				consumer_goods_factor = 0.5
+				custom_modifier_tooltip = JAP_country_in_flames_tt
+				}
+			removal_cost = -1
+			picture = JAP_country_in_flames
+		}
+				
+	}
+}

@@ -1,0 +1,107 @@
+spriteTypes = {	
+    spriteType = {
+        name = "GFX_idea_JAP_MCMH_hog_nso"
+        texturefile = "gfx//interface//ministers//JAP//JAP_MCMH_hog_stt.tga"
+    }
+	spriteType = {
+        name = "GFX_idea_JAP_MCMH_hog_mar"
+        texturefile = "gfx//interface//ministers//JAP//JAP_MCMH_hog_stt.tga"
+    }
+	spriteType = {
+        name = "GFX_idea_JAP_MCMH_hog_lso"
+        texturefile = "gfx//interface//ministers//JAP//JAP_MCMH_hog_stt.tga"
+    }
+	spriteType = {
+        name = "GFX_idea_JAP_MCMH_hog_sde"
+        texturefile = "gfx//interface//ministers//JAP//JAP_MCMH_hog_stt.tga"
+    }
+	spriteType = {
+        name = "GFX_idea_JAP_MCMH_hog_lde"
+        texturefile = "gfx//interface//ministers//JAP//JAP_MCMH_hog_stt.tga"
+    }
+	spriteType = {
+        name = "GFX_idea_JAP_MCMH_hog_con"
+        texturefile = "gfx//interface//ministers//JAP//JAP_MCMH_hog_stt.tga"
+    }
+	spriteType = {
+        name = "GFX_idea_JAP_MCMH_hog_aut"
+        texturefile = "gfx//interface//ministers//JAP//JAP_MCMH_hog_stt.tga"
+    }
+	spriteType = {
+        name = "GFX_idea_JAP_MCMH_hog_stt"
+        texturefile = "gfx//interface//ministers//JAP//JAP_MCMH_hog_stt.tga"
+    }
+spriteType = {
+    name = "GFX_idea_JAP_Asanuma_Inejiro_hog_nso"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Asanuma_Inejiro_hog_nso.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Fukumoto_Kazuo_hog_nso"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Fukumoto_Kazuo_hog_nso.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Katayama_Sen_hog_nso"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Katayama_Sen_hog_nso.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Kita_Ikki_hog_nso"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Kita_Ikki_hog_nso.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Tokuda_Kyuichi_hog_nso"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Tokuda_Kyuichi_hog_nso.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Arahata_Kanson_hog_mar"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Arahata_Kanson_hog_mar.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Kawakami_Jotaro_hog_mar"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Kawakami_Jotaro_hog_mar.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Nishio_Suehiro_hog_mar"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Nishio_Suehiro_hog_mar.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Nosaka_Sanzo_hog_mar"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Nosaka_Sanzo_hog_mar.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Sasaki_Kozo_hog_mar"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Sasaki_Kozo_hog_mar.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Yamakawa_Hitoshi_hog_mar"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Yamakawa_Hitoshi_hog_mar.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Abe_Isoo_hog_mar"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Abe_Isoo_hog_mar.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Konoe_Fumimaro_hog_lso"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Konoe_Fumimaro_hog_lso.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Kotoku_Shusui_hog_lso"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Kotoku_Shusui_hog_lso.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Nakae_Chomin_hog_lso"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Nakae_Chomin_hog_lso.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Oyama_Ikuo_hog_lso"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Oyama_Ikuo_hog_lso.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Suzuki_Mosaburo_hog_lso"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Suzuki_Mosaburo_hog_lso.tga"
+}
+spriteType = {
+    name = "GFX_idea_JAP_Okawa_Shumei_hog_nso"
+    texturefile = "gfx\interface\ministers\JAP\JAP_Okawa_Shumei_hog_nso.tga"
+}
+
+}

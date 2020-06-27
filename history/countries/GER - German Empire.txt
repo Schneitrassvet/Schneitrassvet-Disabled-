@@ -1,0 +1,8 @@
+
+add_ideas = {
+	GER_freikorps
+	GER_sturmtuppen
+	GER_spartakusbund
+	GER_empire_of_left
+	GER_belle_epoque
+}

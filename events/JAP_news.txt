@@ -1,0 +1,16 @@
+add_namespace = japnews
+
+news_event = {  #226 incident
+	id = japnews.1
+	title = japnews.1.t
+	desc = japnews.1.d
+	picture = GFX_news_event_japan_226
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = japnews.1.a
+	}
+}

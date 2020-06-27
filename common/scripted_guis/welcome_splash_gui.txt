@@ -1,0 +1,17 @@
+scripted_gui = {
+
+	SNRT_welcome_hi = {
+		context_type = player_context
+		window_name = "SNRT_welcome_hi_container"
+
+		visible = {
+			has_country_flag = show_welcome_hi
+		}
+
+		effects = {
+			mod_options_button_click = {
+				clr_country_flag = show_welcome_hi
+			}
+		}
+	}
+}

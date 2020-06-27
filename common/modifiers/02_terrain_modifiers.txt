@@ -1,0 +1,4 @@
+terrain_nuked1 = { }
+terrain_nuked2 = { }
+terrain_tokyo = { }
+terrain_yokohama = { }

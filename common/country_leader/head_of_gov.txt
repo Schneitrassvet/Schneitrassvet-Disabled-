@@ -1,0 +1,32 @@
+###role, ideology, etc###
+
+leader_traits = {
+
+### MINISTER ###
+
+	head_of_government = {}
+	foreign_minister = {}
+	economy_minister = {}
+	interior_minister = {}
+	head_of_intelligence = {}
+	
+### Military Staff ###
+
+	chief_of_staff = {}
+	army_chief = {}
+	navy_chief = {}
+	air_chief = {}
+	
+### Ideology ###
+
+	national_socialist_trait = {}
+	marxist_trait = {}
+	liberal_socialist_trait = {}
+	social_democrat_trait = {}
+	liberal_democrat_trait = {}
+	conservative_trait = {}
+	authoritarian_trait = {}
+	paternal_autocrat_trait = {}
+	state_totalist_trait = {}
+	
+}

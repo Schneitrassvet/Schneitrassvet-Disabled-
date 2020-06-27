@@ -1,0 +1,18 @@
+PER_explore_resources_category = {
+	icon = generic_prospect_for_resources
+	allowed = {
+		original_tag = PER
+		has_completed_focus = PER_explore_resources
+	}
+}
+
+PER_suppress_cossacks_category = {
+	priority = 20
+	icon = infiltration
+	allowed = {
+		original_tag = PER
+	}
+	visible = {
+		has_completed_focus = PER_suppression
+	}
+}

@@ -1,0 +1,8 @@
+spriteTypes = {
+	
+		spriteType = {
+				name = "GFX_news_event_japan_226"
+				texturefile = "gfx/event_pictures/news_events/Asia/news_event_japan_226.dds"
+		}
+		
+}

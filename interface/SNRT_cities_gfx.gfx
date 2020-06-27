@@ -1,0 +1,22 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_terrain_tokyo"
+		textureFile = "gfx/interface/terrains/terrain_tokyo.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_yokohama"
+		textureFile = "gfx/interface/terrains/terrain_yokohama.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_nuked1"
+		textureFile = "gfx/interface/terrains/terrain_nuked1.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_nuked2"
+		textureFile = "gfx/interface/terrains/terrain_nuked2.dds"
+	}
+	
+	
+}
+		

@@ -1,0 +1,42 @@
+on_actions = {
+
+	on_nuke_drop = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { state = 282 }		###Tokyo, Yokohama			
+				}
+				282 = {
+					set_state_flag = state_282_nuked
+					remove_province_modifier = {
+						static_modifiers = {
+							terrain_tokyo
+						}
+						province = 1182
+					}
+					remove_province_modifier = {
+						static_modifiers = {
+							terrain_yokohama
+						}
+						province = 9998
+					}
+				}
+			}
+		}
+	}
+	
+	on_startup = {
+		effect = {
+			282 = { #Tokyo
+				add_province_modifier = {
+					static_modifiers = { terrain_tokyo }
+					province = { id = 1182 }
+				}
+				add_province_modifier = {  #Yokohama
+					static_modifiers = { terrain_yokohama }
+					province = { id = 9998 }
+				}
+			}
+		}
+	}
+}

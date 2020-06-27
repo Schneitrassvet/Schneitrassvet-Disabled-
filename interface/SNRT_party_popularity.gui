@@ -1,0 +1,175 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "party_popularity_number_container"
+		position = { x = 174 y = 4 }
+		
+		instantTextBoxType = {
+			name ="party_pop_text"
+			position = { x= 1 y = 4 }
+			font = "hoi_18mbs"
+            text = "[?ROOT.coalition_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "KR_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "national_socialism_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name ="national_socialism_icon"
+			spriteType = "GFX_national_socialism_small"
+			position = { x=-2 y=0 }
+			
+			pdx_tooltip = "KR_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "marxism_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name ="marxism_icon"
+			spriteType = "GFX_marxism_small"
+			position = { x=-2 y=0 }
+			
+			pdx_tooltip = "KR_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "liberal_socialism_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name ="liberal_socialism_icon"
+			spriteType = "GFX_liberal_socialism_small"
+			position = { x=-2 y=0 }
+			
+			pdx_tooltip = "KR_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "social_democracy_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name ="social_democracy_icon"
+			spriteType = "GFX_social_democracy_small"
+			position = { x=-2 y=0 }
+			
+			pdx_tooltip = "KR_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "liberal_democracy_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name ="liberal_democracy_icon"
+			spriteType = "GFX_liberal_democracy_small"
+			position = { x=-2 y=0 }
+			
+			pdx_tooltip = "KR_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "conservatism_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name ="conservatism_icon"
+			spriteType = "GFX_conservatism_small"
+			position = { x=-2 y=0 }
+			
+			pdx_tooltip = "KR_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "authoritarian_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name ="authoritarian_icon"
+			spriteType = "GFX_authoritarian_small"
+			position = { x=-2 y=0 }
+			
+			pdx_tooltip = "KR_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "paternal_autocracy_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name ="paternal_autocracy_icon"
+			spriteType = "GFX_paternal_autocracy_small"
+			position = { x=-2 y=0 }
+			
+			pdx_tooltip = "KR_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "state_totalism_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name ="state_totalism_icon"
+			spriteType = "GFX_state_totalism_small"
+			position = { x=-2 y=0 }
+			
+			pdx_tooltip = "KR_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "futurism_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name ="futurism_icon"
+			spriteType = "GFX_futurism_small"
+			position = { x=-2 y=0 }
+			
+			pdx_tooltip = "KR_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "coalition_container"
+		position = { x = 174 y = 4 }
+		
+		iconType = {
+			name = "coalition_icon"
+			spriteType = "GFX_coalition_icon"
+			position = { x=10 y=10 }
+			
+			pdx_tooltip = "KR_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+	}
+}

@@ -1,0 +1,358 @@
+defined_text = {
+    name = GetPopLevel
+    text = {
+        trigger = {
+            has_idea = party_pop_0_90
+        }
+        localization_key = party_pop_0_90_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_80
+        }
+        localization_key = party_pop_0_80_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_70
+        }
+        localization_key = party_pop_0_70_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_60
+        }
+        localization_key = party_pop_0_60_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_50
+        }
+        localization_key = party_pop_0_50_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_40
+        }
+        localization_key = party_pop_0_40_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_30
+        }
+        localization_key = party_pop_0_30_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_20
+        }
+        localization_key = party_pop_0_20_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_10
+        }
+        localization_key = party_pop_0_10_loc_key
+    }
+    text = {
+        trigger = {
+            has_idea = party_pop_0_00
+        }
+        localization_key = party_pop_0_00_loc_key
+    }
+}
+
+defined_text = {
+	name = GetCoalitionStatus
+	text = {
+		trigger = {
+			has_coalition = yes
+		}
+		localization_key = there_is_coalition
+	}
+	text = {
+		trigger = {
+			has_coalition = no
+		}
+		localization_key = no_coalition
+	}
+}
+
+defined_text = {
+	name = GetSNRTRulingParty
+	text = {
+		trigger = {
+			has_government = national_socialism
+		}
+		localization_key = national_socialism_topbar_tooltip
+	}
+	text = {
+		trigger = {
+			has_government = marxism
+		}
+		localization_key = marxism_topbar_tooltip
+	}
+	text = {
+		trigger = {
+			has_government = liberal_socialism
+		}
+		localization_key = liberal_socialism_topbar_tooltip
+	}
+	text = {
+		trigger = {
+			has_government = social_democracy
+		}
+		localization_key = social_democracy_topbar_tooltip
+	}
+	text = {
+		trigger = {
+			has_government = liberal_democracy
+		}
+		localization_key = liberal_democracy_topbar_tooltip
+	}
+	text = {
+		trigger = {
+			has_government = conservatism
+		}
+		localization_key = conservatism_topbar_tooltip
+	}
+	text = {
+		trigger = {
+			has_government = authoritarian
+		}
+		localization_key = authoritarian_topbar_tooltip
+	}
+	text = {
+		trigger = {
+			has_government = paternal_autocracy
+		}
+		localization_key = paternal_autocracy_topbar_tooltip
+	}
+	text = {
+		trigger = {
+			has_government = state_totalism
+			NOT = { has_country_flag = futurism_government }
+		}
+		localization_key = state_totalism_topbar_tooltip
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_country_flag = futurism_government
+				has_government = state_totalism
+			}
+		}
+		localization_key = futurism_topbar_tooltip
+	}
+}
+ 
+defined_text = {
+    name = GetCoalition
+    text = {
+        localization_key = coalition_parties
+    }
+}
+ 
+defined_text = {
+    name = GetCoalitionWords
+    text = {
+        localization_key = coalition_parties_display_words
+    }
+}
+ 
+defined_text = {
+    name = GetNationalSocialismCoalition
+    text = {
+        trigger = {
+            OR = {
+                has_country_flag = coalition_national_socialism
+                has_government = national_socialism
+            }
+        }
+        localization_key = coalition_parties_national_socialism
+    }
+}
+ 
+defined_text = {
+    name = GetMarxismCoalition
+    text = {
+        trigger = {
+            OR = {
+                has_country_flag = coalition_marxism
+                has_government = marxism
+            }
+        }
+        localization_key = coalition_parties_marxism
+    }
+}
+ 
+defined_text = {
+    name = GetLiberalSocialismCoalition
+    text = {
+        trigger = {
+            OR = {
+                has_government = liberal_socialism
+                has_country_flag = coalition_liberal_socialism
+            }
+        }
+        localization_key = coalition_parties_liberal_socialism
+    }
+}
+ 
+ 
+defined_text = {
+    name = GetSocialDemocracyCoalition
+    text = {
+        trigger = {
+            OR = {
+                has_country_flag = coalition_social_democracy
+                has_government = social_democracy
+            }
+        }
+        localization_key = coalition_parties_social_democracy
+    }
+}
+ 
+defined_text = {
+    name = GetLiberalDemocracyCoalition
+    text = {
+        trigger = {
+            OR = {
+                has_country_flag = coalition_liberal_democracy
+                has_government = liberal_democracy
+            }
+        }
+        localization_key = coalition_parties_liberal_democracy
+    }
+}
+ 
+ 
+defined_text = {
+    name = GetConservatismCoalition
+    text = {
+        trigger = {
+            OR = {          
+               has_government = conservatism
+               has_country_flag = coalition_conservatism
+            } 
+        }
+        localization_key = coalition_parties_conservatism
+    }
+}
+ 
+defined_text = {
+    name = GetAuthoritarianCoalition
+    text = {
+        trigger = {
+            OR = {
+                has_country_flag = coalition_authoritarian
+                has_government = authoritarian
+            }
+        }
+        localization_key = coalition_parties_authoritarian
+    }
+}
+ 
+defined_text = {
+    name = GetPaternalAutocracyCoalition
+    text = {
+        trigger = {
+            OR = {
+                has_country_flag = coalition_paternalAutocracy
+                has_government = paternalAutocracy
+            }
+        }
+        localization_key = coalition_parties_paternalAutocracy
+    }
+}
+ 
+defined_text = {
+    name = GetStateTotalismCoalition
+    text = {
+        trigger = {
+            OR = {
+                has_government = state_totalism
+                has_country_flag = coalition_state_totalism
+            }
+        }
+        localization_key = coalition_parties_state_totalism
+    }
+}
+ 
+defined_text = {
+    name = GetFuturismCoalition
+    text = {
+        trigger = {
+            AND = {
+                has_government = state_totalism
+                has_country_flag = futurism_government
+            }
+        }
+        localization_key = coalition_parties_futurism
+    }
+}
+ 
+defined_text = {
+    name = GetRulingCoalition
+    text = {
+        trigger = {
+            has_government = national_socialism
+        }
+        localization_key = national_socialism_desc
+    }
+    text = {
+        trigger = {
+            has_government = marxism
+        }
+        localization_key = marxism_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = liberal_socialism
+        }
+        localization_key = liberal_socialism_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = social_democracy
+        }
+        localization_key = social_democracy_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = liberal_democracy
+        }
+        localization_key = liberal_democracy_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = conservatism
+        }
+        localization_key = conservatism_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = authoritarian
+        }
+        localization_key = authoritarian_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = paternal_autocracy
+        }
+        localization_key = paternal_autocracy_desc
+    }
+   
+    text = {
+        trigger = {
+            has_government = state_totalism
+        }
+        localization_key = state_totalism_desc
+    }
+}

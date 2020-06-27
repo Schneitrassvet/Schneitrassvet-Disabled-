@@ -1,0 +1,26 @@
+﻿l_english:
+
+###Party Names###
+
+JAP_state_totalism_party:0 "Kodoha"
+JAP_state_totalism_party_long:0 "Kodoha Faction"
+JAP_national_socialism_party:0 "ANNSP"
+JAP_national_socialism_party_long:0 "All-Nippon National-Socialist Party"
+JAP_marxism_party:0 "JCP(R)"
+JAP_marxism_party_long:0 "Japanese Communist Party (Radical)"
+JAP_liberal_socialism_party:0 "JCP"
+JAP_liberal_socialism_party_long:0 "Japanese Communist Party"
+JAP_social_democracy_party:0 "SMP"
+JAP_social_democracy_party_long:0 "Social Masses Party"
+JAP_liberal_democracy_party:0 "CLP"
+JAP_liberal_democracy_party_long:0 "Constitutional Liberal Party"
+JAP_conservatism_party:0 "CDP"
+JAP_conservatism_party_long:0 "Constitutional Democratic Party"
+JAP_authoritarian_party:0 "Rikken Seiyūkai"
+JAP_authoritarian_party_long:0 "Constitutional Association of Political Friendship"
+
+
+###National Spirits###
+
+JAP_nation_divided:0 "Country in flames"
+JAP_nation_divided_desc:0 "Fucked up"

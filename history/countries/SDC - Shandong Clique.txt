@@ -1,0 +1,23 @@
+﻿capital = 597
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	national_socialism = 0
+    marxism = 0
+    liberal_socialism = 10
+    social_democracy = 13
+    liberal_democracy = 20
+    conservatism = 10
+    authoritarian = 37
+	paternal_autocracy = 0
+    state_totalism = 10
+}

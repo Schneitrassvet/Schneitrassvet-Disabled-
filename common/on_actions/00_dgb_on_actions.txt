@@ -1,0 +1,11 @@
+	#Not run on a specific country.
+on_actions = {
+	on_startup = {
+		effect = {
+			DGB = {
+				set_variable = { DGB_russia_influence = 15 }
+				set_variable = { DGB_china_influence = 10 }
+			}
+		}
+	}
+}

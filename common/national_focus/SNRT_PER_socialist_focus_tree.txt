@@ -1,0 +1,454 @@
+focus_tree = {
+	id = PER_focus_socialist
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PER
+		}
+	}
+	shared_focus = PER_deal_with_the_cossack_rebelion
+	shared_focus = PER_trans-iranian_railway
+	
+	continuous_focus_position = { x = 30, y = 4000 }
+	
+	default = no
+	
+	###############
+	### Politic ###
+	###############
+	
+	focus = {
+		id = PER_the_peoples_court
+		icon = GFX_goal_generic_demand_territory
+		x = 4
+		y = 5
+		cost = 5
+		cancelable = no
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_eliminate_the_remnants_of_cossacks }
+		select_effect = {
+			country_event = {
+				id = irancourt.0
+				days = 7
+			}
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = PER_radical_majority
+		icon = GFX_goal_generic_construction	
+		x = 2
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_the_peoples_court }
+		mutually_exclusive = { focus = PER_moderate_majority }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_moderate_majority
+		icon = GFX_goal_generic_construction	
+		x = 6
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_the_peoples_court }
+		mutually_exclusive = { focus = PER_radical_majority }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_weaken_the_oppositions
+		icon = GFX_goal_generic_construction	
+		x = 4
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { 
+			focus = PER_radical_majority
+			focus = PER_moderate_majority
+		}
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_purge_far-right_parties
+		icon = GFX_goal_generic_construction	
+		x = 1
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_radical_majority }
+		prerequisite = { focus = PER_weaken_the_oppositions }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_ban_royalism
+		icon = GFX_focus_rom_abdicate	
+		x = 7
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_moderate_majority }
+		prerequisite = { focus = PER_weaken_the_oppositions }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_definition_of_minority
+		icon = GFX_goal_generic_construction	
+		x = 3
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = {
+			focus = PER_purge_far-right_parties
+			focus = PER_ban_royalism
+		}
+		mutually_exclusive = { focus = PER_rights_of_minority }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_rights_of_minority
+		icon = GFX_goal_generic_construction	
+		x = 5
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = {
+			focus = PER_purge_far-right_parties
+			focus = PER_ban_royalism
+		}
+		mutually_exclusive = { focus = PER_definition_of_minority }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_anti-imperialist_propaganda
+		icon = GFX_goal_generic_propaganda	
+		x = 4
+		y = 10
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = {
+			focus = PER_rights_of_minority
+			focus = PER_definition_of_minority
+		}
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_drastic_land_reform
+		icon = GFX_goal_generic_construction	
+		x = 0
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_purge_far-right_parties }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_ban_islam
+		icon = GFX_goal_generic_construction	
+		x = 0
+		y = 11
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_drastic_land_reform }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_revise_labor_laws
+		icon = GFX_focus_generic_treaty
+		x = 8
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_ban_royalism }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_reinterpret_the_quran
+		icon = GFX_goal_generic_construction	
+		x = 8
+		y = 11
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_revise_labor_laws }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_young_communist_league
+		icon = GFX_goal_generic_construction	
+		x = 4
+		y = 11
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { 
+			focus = PER_drastic_land_reform
+			focus = PER_revise_labor_laws
+		}
+		prerequisite = { focus = PER_anti-imperialist_propaganda }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_invite_foreign_socialist_officers
+		icon = GFX_focus_generic_military_mission	
+		x = 2
+		y = 12
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { 
+			focus = PER_reinterpret_the_quran
+			focus = PER_ban_islam
+		}
+		prerequisite = { focus = PER_young_communist_league }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_women_in_university
+		icon = GFX_goal_generic_construction	
+		x = 6
+		y = 12
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { 
+			focus = PER_reinterpret_the_quran
+			focus = PER_ban_islam
+		}
+		prerequisite = { focus = PER_young_communist_league }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_socialist_internal_unity
+		icon = GFX_focus_generic_soviet_politics	
+		x = 4
+		y = 13
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_invite_foreign_socialist_officers }
+		prerequisite = { focus = PER_women_in_university }
+		completion_reward = {
+		
+		}
+	}
+	
+	#################
+	### Expansion ###
+	#################
+	
+	focus = {
+		id = PER_revolutionary_front_of_asia
+		icon = GFX_focus_generic_soviet_politics	
+		x = 15
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_socialists_in_azerbaijan
+		icon = GFX_focus_generic_soviet_politics	
+		x = 12
+		y = 10
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_revolutionary_front_of_asia }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_demand_tabriz
+		icon = GFX_focus_generic_soviet_politics	
+		x = 11
+		y = 11
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_socialists_in_azerbaijan }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_advance_to_arabistan
+		icon = GFX_focus_generic_soviet_politics	
+		x = 13
+		y = 11
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_socialists_in_azerbaijan }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_punish_the_ottomans
+		icon = GFX_focus_generic_soviet_politics	
+		x = 12
+		y = 12
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_advance_to_arabistan }
+		prerequisite = { focus = PER_demand_tabriz }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_support_bolshevik
+		icon = GFX_focus_generic_soviet_politics	
+		x = 17
+		y = 10
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_revolutionary_front_of_asia }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_socialists_in_afganistan
+		icon = GFX_focus_generic_soviet_politics	
+		x = 19
+		y = 10
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_revolutionary_front_of_asia }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_protect_delhi
+		icon = GFX_focus_generic_soviet_politics	
+		x = 18
+		y = 11
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_socialists_in_afganistan }
+		prerequisite = { focus = PER_support_bolshevik }
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PER_protect_bengal
+		icon = GFX_focus_generic_soviet_politics	
+		x = 18
+		y = 12
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = PER_protect_delhi }
+		completion_reward = {
+		
+		}
+	}
+}

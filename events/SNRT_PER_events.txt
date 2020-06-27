@@ -1,0 +1,737 @@
+add_namespace = iran
+add_namespace = irancos
+add_namespace = irancourt
+
+country_event = { #Isfahan Win
+	id = irancos.0
+	title = irancos.0.t
+	desc = irancos.0.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_to_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.0.a
+		411 = { 
+			set_demilitarized_zone = no 
+			add_state_modifier = {
+				modifier = {
+					local_building_slots_factor = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Isfahan Lose
+	id = irancos.1
+	title = irancos.1.t
+	desc = irancos.1.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			subtract_from_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.1.a
+		add_manpower = -214
+	}
+}
+
+country_event = { #Fars Win
+	id = irancos.2
+	title = irancos.2.t
+	desc = irancos.2.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_to_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.2.a
+		412 = { 
+			set_demilitarized_zone = no 
+			add_state_modifier = {
+				modifier = {
+					local_building_slots_factor = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Fars Lose
+	id = irancos.3
+	title = irancos.3.t
+	desc = irancos.3.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			subtract_from_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.3.a
+		add_manpower = -110
+	}
+}
+
+country_event = { #Khorasan Win
+	id = irancos.4
+	title = irancos.4.t
+	desc = irancos.4.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_to_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.4.a
+		416 = { 
+			set_demilitarized_zone = no
+			add_state_modifier = {
+				modifier = {
+					local_building_slots_factor = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Khorasan Lose
+	id = irancos.5
+	title = irancos.5.t
+	desc = irancos.5.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			subtract_from_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.5.a
+		add_manpower = -330
+	}
+}
+
+country_event = { #Kurdistan Win
+	id = irancos.6
+	title = irancos.6.t
+	desc = irancos.6.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_to_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }		
+		}
+	}
+	
+	option = {
+		name = irancos.6.a
+		421 = { 
+			set_demilitarized_zone = no 
+			add_state_modifier = {
+				modifier = {
+					local_building_slots_factor = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Kurdistan Lose
+	id = irancos.7
+	title = irancos.7.t
+	desc = irancos.7.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			subtract_from_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.7.a
+		add_manpower = -214
+	}
+}
+
+country_event = { #Khuzestan Win
+	id = irancos.8
+	title = irancos.8.t
+	desc = irancos.8.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_to_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.8.a
+		413 = { 		
+			set_demilitarized_zone = no 
+			add_state_modifier = {
+				modifier = {
+					local_building_slots_factor = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Khuzestan Lose
+	id = irancos.9
+	title = irancos.9.t
+	desc = irancos.9.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			subtract_from_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.9.a
+		add_manpower = -89
+	}
+}
+
+country_event = { #Sistan Win
+	id = irancos.10
+	title = irancos.10.t
+	desc = irancos.10.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_to_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.10.a
+		410 = { 
+			set_demilitarized_zone = no
+			add_state_modifier = {
+				modifier = {
+					local_building_slots_factor = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Sistan Lose
+	id = irancos.11
+	title = irancos.11.t
+	desc = irancos.11.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			subtract_from_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.11.a
+		add_manpower = -106
+	}
+}
+
+country_event = { #Kerman Win
+	id = irancos.12
+	title = irancos.12.t
+	desc = irancos.12.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_to_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.12.a
+		414 = { 
+			set_demilitarized_zone = no 
+			add_state_modifier = {
+				modifier = {
+					local_building_slots_factor = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Kerman Lose
+	id = irancos.13
+	title = irancos.13.t
+	desc = irancos.13.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			subtract_from_variable = { per_gov_power = 1 }
+			set_temp_variable = { temp1 = 100 }
+			subtract_from_temp_variable = { temp1 = per_gov_power }
+			set_variable = { per_cos_power = temp1 }
+		}
+	}
+	
+	option = {
+		name = irancos.13.a
+		add_manpower = -106
+	}
+}
+
+country_event = { #Suppression Success
+	id = irancos.20
+	title = irancos.20.t
+	desc = irancos.20.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			remove_decision = PER_suppress_cossacks_category
+		}
+	}
+	
+	option = {
+		name = irancos.20.a
+		swap_ideas = {
+			remove_idea = PER_rebellious_cossacks_rough_idea
+			add_idea = PER_rebellious_cossacks_tiny_idea
+		}
+		hidden_effect = {
+			set_country_flag = PER_suppression_success_flag
+		}
+	}
+}
+
+country_event = { #Suppression Fail
+	id = irancos.21
+	title = irancos.21.t
+	desc = irancos.21.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			remove_mission = PER_coming_cossacks
+		}
+	}
+	
+	option = {
+		name = irancos.21.a
+		set_politics = {
+			ruling_party = authoritarian
+		}
+		add_popularity = {
+			ideology = authoritarian
+			popularity = 0.50
+		}
+		load_focus_tree = PER_focus_cossacks
+		swap_ideas = {
+			remove_idea = PER_rebellious_cossacks_rough_idea
+			add_idea = PER_social_unrest_idea
+		}
+		hidden_effect = {
+			#set_country_flag = PER_suppression_fail_flag
+			every_owned_state = {
+				limit = {
+					is_demilitarized_zone = yes
+				}
+				set_demilitarized_zone = no
+				add_state_modifier = {
+					modifier = {
+						local_building_slots_factor = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Meeting Start
+	id = irancos.22
+	title = irancos.22.t
+	desc = irancos.22.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = irancos.22.a
+		country_event = { 
+			id = irancos.23 
+			days = 3
+		}
+	}
+}
+
+country_event = { #Issue 1
+	id = irancos.23
+	title = irancos.23.t
+	desc = irancos.23.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = irancos.23.a
+		hidden_effect = {
+			country_event = {
+				id = irancos.24
+				days = 5
+			}
+		}
+	}
+	
+	option = {
+		name = irancos.23.b
+		hidden_effect = {
+			country_event = {
+				id = irancos.25
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #Issue 2
+	id = irancos.24
+	title = irancos.24.t
+	desc = irancos.24.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = irancos.24.a
+		hidden_effect = {
+			country_event = {
+				id = irancos.26
+				days = 5
+			}
+		}
+	}
+	
+	option = {
+		name = irancos.24.b
+		hidden_effect = {
+			country_event = {
+				id = irancos.30
+				days = 1
+			}
+		}
+	}
+	
+	option = {
+		name = irancos.24.c
+		hidden_effect = {
+			country_event = {
+				id = irancos.30
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #Radicals Win
+	id = irancos.25
+	title = irancos.25.t
+	desc = irancos.25.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = irancos.25.a
+		set_politics = {
+			ruling_party = national_socialism
+		}
+		add_popularity = {
+			ideology = national_socialism
+			popularity = 0.15
+		}
+		add_popularity = {
+			ideology = marxism
+			popularity = -0.05
+		}
+		swap_ideas = {
+			remove_idea = PER_internal_confusion_idea
+			add_idea = PER_rebellious_cossacks_rough_idea
+		}
+		hidden_effect = {
+			set_country_flag = PER_radicals_win_flag
+			complete_national_focus = PER_suppression
+		}
+	}
+	
+}
+
+country_event = { #Issue 3
+	id = irancos.26
+	title = irancos.26.t
+	desc = irancos.26.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = irancos.26.a
+		hidden_effect = {
+			country_event = {
+				id = irancos.30
+				days = 1
+			}
+		}
+	}
+	
+	option = {
+		name = irancos.26.b
+		hidden_effect = {
+			country_event = {
+				id = irancos.30
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #Meeting Canceled
+	id = irancos.30
+	title = irancos.30.t
+	desc = irancos.30.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = irancos.30.a
+		add_political_power = -20
+		hidden_effect = {
+			country_event = {
+				id = irancos.31
+				days = 1
+			}
+		}
+	}
+	
+	option = {
+		name = irancos.30.b
+		hidden_effect = {
+			country_event = {
+				id = irancos.31
+				days = 1
+			}
+		}
+	}
+	
+}
+
+country_event = { #Assasination of Kuchik
+	id = irancos.31
+	title = irancos.31.t
+	desc = irancos.31.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = irancos.31.a
+		create_country_leader = {
+			name = "Haydar Khan Amo-oghli"
+			desc = "POLITICS_HAYDAR_KHAN_AMOOGHLI_DESC"
+			picture = "gfx/leaders/PER/Portrait_Haydar_Khan_Amooghli.dds"
+			expire = "1965.1.1"
+			ideology = marxism_subtype
+			traits = {
+				#
+			}
+		}
+		set_politics = {
+			ruling_party = national_socialism
+		}
+		add_popularity = {
+			ideology = national_socialism
+			popularity = 0.15
+		}
+		add_popularity = {
+			ideology = marxism
+			popularity = -0.05
+		}
+		swap_ideas = {
+			swap_ideas = {
+				remove_idea = PER_internal_confusion_idea
+				add_idea = PER_rebellious_cossacks_rough_idea
+			}
+		}
+		hidden_effect = {
+			set_country_flag = PER_radicals_win_flag
+			complete_national_focus = PER_suppression
+		}
+	}
+	
+}
+
+country_event = {
+	id = iran.0
+	title = iran.0.t
+	desc = iran.0.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = iran.0.a
+		
+	}
+}
+
+country_event = {
+	id = iran.1
+	picture = GFX_report_event_PER_constitutional_revolutuon
+	title = iran.1.t
+	desc = iran.1.d
+	
+	trigger = {
+		tag = PER
+		date > 1936.04.26
+		NOT = {
+			OR = {
+				has_government = authoritarian
+				has_government = state_totalism
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	
+	option = {
+		name = iran.1.a
+		add_political_power = 20
+	}
+}
+
+country_event = {
+	id = irancourt.0
+	title = irancourt.0.t
+	desc = irancourt.0.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = irancourt.0.a
+		country_event = {
+			id = irancourt.1
+			days = 7
+		}
+	}
+}
+
+country_event = {
+	id = irancourt.1
+	title = irancourt.1.t
+	desc = irancourt.1.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = irancourt.1.a
+		country_event = {
+			id = irancourt.1
+			days = 7
+		}
+	}
+	
+	option = {
+		name = irancourt.1.b
+		country_event = {
+			id = irancourt.1
+			days = 7
+		}
+	}
+}

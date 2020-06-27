@@ -1,0 +1,130 @@
+ideas = {
+
+	country = {
+		PER_defeat_in_afghanistan_idea = {
+			
+			allowed = {
+				original_tag = PER
+			}
+			
+			removal_cost = -1
+			picture = chi_wargaming_division
+			
+			modifier = {
+				justify_war_goal_time = 0.75
+				offensive_war_stability_factor = -0.5
+			}
+		}
+	
+		PER_isolated_socialism_idea = {
+			
+			allowed = {
+				original_tag = PER
+			}
+			
+			removal_cost = -1
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				opinion_gain_monthly_same_ideology_factor = 0.25
+				defensive_war_stability_factor = 0.4
+			}
+		}
+		
+		PER_rebellious_cossacks_idea = {
+			
+			allowed = {
+				original_tag = PER
+			}
+			
+			removal_cost = -1
+			picture = PER_rebelious_cossacks
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.2
+				cavalry_attack_factor = -0.15
+				cavalry_defence_factor = -0.15
+			}
+		}
+		
+		PER_minority_problem_idea = {
+			
+			allowed = {
+				original_tag = PER
+			}
+			
+			removal_cost = -1
+			picture = PER_minority_problem
+			
+			modifier = {
+				conscription_factor = -0.15
+				stability_factor = -0.25
+				political_power_gain = -0.2
+				mobilization_speed = -0.30
+				surrender_limit = -0.1
+				
+			}
+		}
+		
+		PER_new_refining_technique_idea = {
+			
+			allowed = {
+				original_tag = PER
+			}
+			
+			removal_cost = -1
+			picture = PER_minority_problem
+			
+			modifier = {
+				production_oil_factor = 0.20
+			}
+		}
+		
+		PER_irrigation_facilities_idea = {
+			
+			allowed = {
+				original_tag = PER
+			}
+			
+			removal_cost = -1
+			picture = PER_minority_problem
+			
+			modifier = {
+				stability_weekly = 0.002
+				MONTHLY_POPULATION = 0.20
+			}
+		}
+		
+		PER_farming_aid_idea = {
+			
+			allowed = {
+				original_tag = PER
+			}
+			
+			removal_cost = -1
+			picture = PER_minority_problem
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				stability_weekly = 0.005
+				MONTHLY_POPULATION = 0.30
+				production_speed_buildings_factor = 0.10
+			}
+		}
+		
+		PER_saffron_trade_idea = {
+			
+			allowed = {
+				original_tag = PER
+			}
+			
+			removal_cost = -1
+			picture = PER_minority_problem
+			
+			modifier = {
+				consumer_goods_factor = -0.08			
+			}
+		}
+	}
+}

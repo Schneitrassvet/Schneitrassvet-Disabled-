@@ -1,0 +1,35 @@
+add_namespace = korlit
+
+country_event = {
+	id = korlit.1
+	title = korlit.t
+	desc = korlit.1.d
+	picture = GFX_JAP_report_socialist_rally
+	is_triggered_only = yes
+	
+	option = {
+		set_politics = {
+			ruling_party = state_totalism
+			elections_allowed = no
+			}
+		add_popularity = {
+			ideology = state_totalism
+			popularity = 0.2
+			}
+		create_country_leader = {
+			name = "Yi Sang"
+			desc = "POLITICS_YI_SANG_DESC"
+			picture = "gfx/leaders/KOR/Portrait_KOREA_YI_SANG.dds"
+			expire = "1965.1.1"
+			ideology = futurism
+			traits = { }
+			}
+		set_cosmetic_tag = KOR_LIT_STATE
+		set_party_name = {
+			ideology = state_totalism
+			long_name = KOR_LIT_STATE_PARTY_long
+			name = KOR_LIT_STATE_PARTY
+			}
+		set_country_flag = futurism_government
+	}
+}

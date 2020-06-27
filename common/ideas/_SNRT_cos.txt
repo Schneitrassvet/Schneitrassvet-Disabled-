@@ -1,0 +1,6 @@
+ideas = {
+
+	chief_of_staff = {
+	}
+	
+}

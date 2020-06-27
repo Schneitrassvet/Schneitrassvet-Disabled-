@@ -1,0 +1,11 @@
+﻿l_english:
+#Political Factionalism Decision
+DGB_influence_management_decision:0 "타국의 영향력"
+DGB_influence_management_decision_desc:0 "러시아의 영향력 : §Y[?DGB.DGB_russia_influence]§!\n\n중국의 영향력 : §Y[?DGB.DGB_china_influence]§!"
+DGB_influence_management_decision_russia:0 "러시아와의 친선"
+DGB_influence_management_decision_japan:0 "일본과의 친선"
+DGB_influence_management_decision_china:0 "국민당과의 친선"
+DGB_russia_influence_add_4:0 "러시아와의 관계가 §Y4§!향상됩니다!"
+DGB_china_influence_add_4:0 "국민당과의 관계가 §Y4§!향상됩니다!"
+DGB_russia_influence_lose_2:0 "러시아와의 관계가 §Y2§!감소됩니다!"
+DGB_china_influence_lose_2:0 "국민당과의 관계가 §Y2§!감소됩니다!"

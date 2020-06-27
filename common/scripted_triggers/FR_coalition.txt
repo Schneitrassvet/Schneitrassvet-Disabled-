@@ -1,0 +1,13 @@
+has_coalition = {
+	OR = {
+		has_country_flag = coalition_national_socialism
+		has_country_flag = coalition_marxism
+		has_country_flag = coalition_liberal_socialism
+		has_country_flag = coalition_social_democracy
+		has_country_flag = coalition_liberal_democracy
+		has_country_flag = coalition_conservatism
+		has_country_flag = coalition_authoritarian
+		has_country_flag = coalition_paternal_autocracy
+		has_country_flag = coalition_state_totalism
+	}
+}

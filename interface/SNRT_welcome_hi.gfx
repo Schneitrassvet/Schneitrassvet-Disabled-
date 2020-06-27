@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SNRT_hi_intro"
+		textureFile = "gfx/hi/hi.tga"
+	}
+	spriteType = {
+		name = "GFX_SNRT_hi_intro_box"
+		textureFile = "gfx/hi/hi_box.tga"
+	}
+}

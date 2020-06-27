@@ -1,0 +1,6 @@
+ideas = {
+	
+	economy_minister = {
+	}
+		
+}

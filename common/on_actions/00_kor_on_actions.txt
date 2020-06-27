@@ -1,0 +1,16 @@
+	#Not run on a specific country.
+on_actions = {
+	on_startup = {
+		effect = {
+			KOR = {
+				set_variable = { KOR_russia_influence = 20 }
+				set_variable = { KOR_china_influence = 5 }
+				set_variable = { KOR_debt_from_russia = 25 }
+				set_variable = { KOR_debt_from_usa = 0 }
+				set_variable = { KOR_debt_from_austria = 0 }
+				set_variable = { KOR_debt_from_germany = 0 }
+				set_variable = { KOR_other_from_debt = 0 }
+			}
+		}
+	}
+}

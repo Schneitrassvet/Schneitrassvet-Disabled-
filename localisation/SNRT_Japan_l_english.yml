@@ -1,0 +1,37 @@
+﻿l_english:
+
+###Party Names###
+
+JAP_state_totalism_party:0 "육군 충성파"
+JAP_state_totalism_party_long:0 "육군 충성파"
+JAP_national_socialism_party:0 "전일본국가사회주의당"
+JAP_national_socialism_party_long:0 "전일본국가사회주의당"
+JAP_marxism_party:0 "사회혁명당"
+JAP_marxism_party_long:0 "사회혁명당"
+JAP_liberal_socialism_party:0 "일본 공산당"
+JAP_liberal_socialism_party_long:0 "일본 공산당"
+JAP_social_democracy_party:0 "사회대중당"
+JAP_social_democracy_party_long:0 "사회대중당"
+JAP_liberal_democracy_party:0 "입헌자유당"
+JAP_liberal_democracy_party_long:0 "입헌자유당"
+JAP_conservatism_party:0 "입헌민주당"
+JAP_conservatism_party_long:0 "입헌민주당"
+JAP_authoritarian_party:0 "입헌정우회"
+JAP_authoritarian_party_long:0 "입헌정우회"
+
+###Tooltips###
+
+JAP_country_in_flames_tt:0 "§Y사단 훈련, 삭제, 수정 불가능§!"
+
+###National Spirits###
+
+JAP_nation_divided:0 "분열된 국가"
+JAP_nation_divided_desc:0 "나라 좆망"
+JAP_country_in_flames:0 "혼돈의 일본"
+JAP_country_in_flames_desc:0 "혼돈의 일본"
+
+###News Events###
+
+japnews.1.t:0 "전일본국가사회주의당의 도쿄 점령"
+japnews.1.d:0 "1936년 2월 26일 오늘 새벽, 전일본국가사회주의당 소속 청년 장교들이 총리관저를 습격하며 쿠데타를 일으켰습니다! 이들은 이미 교섭해놨던 시민단체들과 협력하며 도쿄를 빠른 시간에 장악하였고, 도쿄 주둔 부대들과의 교전으로 도쿄는 아수라장이 되었습니다. 경시청과 총리관저 그리고 국회의사당은 함락되었고, 육군성과 육군참모부에선 공성전이 벌어졌습니다. 황거에는 육군 충성파의 필사적인 저항이 계속되고 있습니다.\n 이들은 12.10 사건으로 제국을 능멸하고 신민을 공격하는 육군 충성파의 해체, 천황의 즉각적인 퇴위, 자유 선거 개헌을 요구하며 도쿄를 빠른 속도로 장악하였습니다. 이 소식을 들은 육군 충성파는 이는 철없는 젊은이들의 생각 없는 폭동이며 즉각 진압에 나서야 한다고 강력주장하며, 남방군은 서둘러 귀국을 하고 있습니다.\n 하지만 이러한 상황에도 내각은 아무런 성명을 내지 않고 있으며, 쿠데타 장교들은 황거 주위를 행진하며 천황을 위협하고 있습니다."
+japnews.1.a:0 "폭풍이 다가오고 있다."

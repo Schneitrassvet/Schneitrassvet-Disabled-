@@ -1,0 +1,51 @@
+﻿l_english:
+
+minister:0 "장관"
+head_of_government:0 "정부수반"
+foreign_minister:0 "외교장관"
+economy_minister:0 "경제장관"
+interior_minister:0 "내무장관"
+head_of_intelligence:0 "정보부장"
+chief_of_staff:0 "총참모장"
+ministers_available:0 "정보부장을 제외한 정부 인물은 수동으로 교체할 수 없습니다. 이벤트, 포커스, 디시전 등을 통해서만 가능합니다." 
+
+
+
+
+### JAP ###
+
+JAP_MCMH_hog_nso:0 "MC무현"
+JAP_MCMH_hog_nso_desc:0 "대한민국의 영원한 MC"
+JAP_MCMH_hog_mar:0 "MC무현"
+JAP_MCMH_hog_mar_desc:0 "대한민국의 영원한 MC"
+JAP_MCMH_hog_lso:0 "MC무현"
+JAP_MCMH_hog_lso_desc:0 "대한민국의 영원한 MC"
+JAP_MCMH_hog_sde:0 "MC무현"
+JAP_MCMH_hog_sde_desc:0 "대한민국의 영원한 MC"
+JAP_MCMH_hog_lde:0 "MC무현"
+JAP_MCMH_hog_lde_desc:0 "대한민국의 영원한 MC"
+JAP_MCMH_hog_con:0 "MC무현"
+JAP_MCMH_hog_con_desc:0 "대한민국의 영원한 MC"
+JAP_MCMH_hog_aut:0 "MC무현"
+JAP_MCMH_hog_aut_desc:0 "대한민국의 영원한 MC"
+JAP_MCMH_hog_stt:0 "MC무현"
+JAP_MCMH_hog_stt_desc:0 "대한민국의 영원한 MC"
+
+JAP_Asanuma_Inejiro_hog_nso:0 "아사누마 이네지로"
+JAP_Fukumoto_Kazuo_hog_nso:0 "후쿠모토 카즈오"
+JAP_Katayama_Sen_hog_nso:0 "가타야마 센"
+JAP_Kita_Ikki_hog_nso:0 "기타 잇키"
+JAP_Tokuda_Kyuichi_hog_nso:0 "도쿠다 큐이치"
+JAP_Arahata_Kanson_hog_mar:0 "아라하타 간손"
+JAP_Kawakami_Jotaro_hog_mar:0 "카와카미 조타로"
+JAP_Nishio_Suehiro_hog_mar:0 "니시오 스에히로"
+JAP_Nosaka_Sanzo_hog_mar:0 "노사카 산조"
+JAP_Sasaki_Kozo_hog_mar:0 "사사키 코조"
+JAP_Yamakawa_Hitoshi_hog_mar:0 "야마카와 히토시"
+JAP_Abe_Isoo_hog_mar:0 "아베 이소오"
+JAP_Konoe_Fumimaro_hog_lso:0 "고노에 후미마로"
+JAP_Kotoku_Shusui_hog_lso:0 "고토쿠 슈스이"
+JAP_Nakae_Chomin_hog_lso:0 "나카에 조민"
+JAP_Oyama_Ikuo_hog_lso:0 "오야마 이쿠오"
+JAP_Suzuki_Mosaburo_hog_lso:0 "스즈키 모사부로"
+JAP_Okawa_Shumei_hog_nso:0 "오카와 슈메이"

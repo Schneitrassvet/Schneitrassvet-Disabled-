@@ -1,0 +1,69 @@
+﻿l_english:
+
+national_socialism_topbar_tooltip:0 "현재 집권 정당의 이념은 §z국가사회주의§!입니다.\n"
+marxism_topbar_tooltip:0 "현재 집권 정당의 이념은 §x마르크스주의§!입니다.\n"
+liberal_socialism_socialist_topbar_tooltip:0 "현재 집권 정당의 이념은 §c자유사회주의§!입니다.\n"
+social_democracy_topbar_tooltip:0 "현재 집권 정당의 이념은 §v사회민주주의§!입니다.\n"
+liberal_democracy_topbar_tooltip:0 "현재 집권 정당의 이념은 §b자유민주주의§!입니다.\n"
+conservatism_topbar_tooltip:0 "현재 집권 정당의 이념은 §n보수민주주의§!입니다.\n"
+authoritarian_topbar_tooltip:0 "현재 집권 정당의 이념은 §m권위주의§!입니다.\n"
+paternal_autocracy_topbar_tooltip:0 "현재 집권 정당의 이념은 §P세습전제주의§!입니다.\n"
+state_totalism_topbar_tooltip:0 "현재 집권 정당의 이념은 §a국가총력주의§!입니다.\n"
+futurism_topbar_tooltip:0 "현재 집권 정당의 이념은 §a미래주의§!입니다.\n"
+
+
+
+KR_PARTY_POP_EFFECT:0 "[GetSNRTRulingParty]\n[GetPopLevel]"
+party_popularity_delayed_tooltip:0 "[GetCoalitionStatus]"
+there_is_coalition:0 "연립 정부 지지도는 정부의 국가에 대한 통제력과 국민들의 지지도를 나타냅니다. 지지도가 높은 정부는 더 쉽게 정책을 실행할 수 있으며 더 잘 국가를 안정화할 수 있습니다. 현재 연립 정당이 있습니다."
+no_coalition:0 "연립 정부 지지도는 정부의 국가에 대한 통제력과 국민들의 지지도를 나타냅니다. 지지도가 높은 정부는 더 쉽게 정책을 실행할 수 있으며 더 잘 국가를 안정화할 수 있습니다. 현재 연립 정당이 없습니다."
+party_pop_0_00_loc_key:0 "§Y정부 지지도§!\n[GetCoalitionWords][GetCoalition]\n§Y현재 정부 지지도에 의한 효과:§!\n일일 정치력 획득: §R-0.30§!\n"
+party_pop_0_10_loc_key:0 "§Y정부 지지도§!\n[GetCoalitionWords][GetCoalition]\n§Y현재 정부 지지도에 의한 효과:§!\n일일 정치력 획득: §R-0.15§!\n"
+party_pop_0_20_loc_key:0 "§Y정부 지지도§!\n[GetCoalitionWords][GetCoalition]\n§Y현재 정부 지지도에 의한 효과:§!\n일일 정치력 획득: §R-0.05§!\n"
+party_pop_0_30_loc_key:0 "§Y정부 지지도§!\n[GetCoalitionWords][GetCoalition]\n§Y현재 정부 지지도에 의한 효과:§!\n일일 정치력 획득: §G+0.05§!\n"
+party_pop_0_40_loc_key:0 "§Y정부 지지도§!\n[GetCoalitionWords][GetCoalition]\n§Y현재 정부 지지도에 의한 효과:§!\n일일 정치력 획득: §G+0.10§!\n"
+party_pop_0_50_loc_key:0 "§Y정부 지지도§!\n[GetCoalitionWords][GetCoalition]\n§Y현재 정부 지지도에 의한 효과:§!\n일일 정치력 획득: §G+0.20§!\n"
+party_pop_0_60_loc_key:0 "§Y정부 지지도§!\n[GetCoalitionWords][GetCoalition]\n§Y현재 정부 지지도에 의한 효과:§!\n일일 정치력 획득: §G+0.40§!\n"
+party_pop_0_70_loc_key:0 "§Y정부 지지도§!\n[GetCoalitionWords][GetCoalition]\n§Y현재 정부 지지도에 의한 효과:§!\n일일 정치력 획득: §G+0.60§!\n"
+party_pop_0_80_loc_key:0 "§Y정부 지지도§!\n[GetCoalitionWords][GetCoalition]\n§Y현재 정부 지지도에 의한 효과:§!\n일일 정치력 획득: §G+0.80§!\n"
+party_pop_0_90_loc_key:0 "§Y정부 지지도§!\n[GetCoalitionWords][GetCoalition]\n§Y현재 정부 지지도에 의한 효과:§!\n일일 정치력 획득: §G+1.00§!\n"
+
+
+
+coalition_parties_display:0 "[GetCoalitionWords][GetCoalition]"
+coalition_parties_display_words:0 "§Y연립 정부에 소속된 정당:§!"
+coalition_parties:0 "\n[GetNationalSocialismCoalition][GetMarxismCoalition][GetLiberalSocialismCoalition][GetSocialDemocracyCoalition][GetLiberalDemocracyCoalition][GetConservatismCoalition][GetAuthoritarianCoalition][GetPaternalAutocracyCoalition][GetStateTotalismCoalition][GetFuturismCoalition]"
+coalition_parties_none:0 "없음"
+ 
+coalition_parties_national_socialism:0 "국가사회주의: [?party_popularity@national_socialism|%H]\n"
+ 
+coalition_parties_marxism:0 "마르크스주의: [?party_popularity@marxism|%H]\n"
+ 
+coalition_parties_liberal_socialism:0 "자유사회주의: [?party_popularity@liberal_socialism|%H]\n"
+  
+coalition_parties_social_democracy:0 "사회민주주의: [?party_popularity@social_democracy|%H]\n"
+ 
+coalition_parties_liberal_democracy:0 "자유민주주의: [?party_popularity@liberal_democracy|%H]\n"
+ 
+coalition_parties_conservatism:0 "보수민주주의: [?party_popularity@conservatism|%H]\n"
+ 
+coalition_parties_authoritarian:0 "권위주의: [?party_popularity@authoritarian|%H]\n"
+ 
+coalition_parties_paternal_autocracy:0 "세습전제주의: [?party_popularity@paternal_autocracy|%H]\n"
+ 
+coalition_parties_state_totalism:0 "국가총력주의: [?party_popularity@state_totalism|%H]\n"
+ 
+coalition_parties_futurism:0 "미래주의"
+ 
+
+
+party_pop_0_00:0 "0-10% 정당 지지도"
+party_pop_0_10:0 "10-20% 정당 지지도"
+party_pop_0_20:0 "20-30% 정당 지지도"
+party_pop_0_30:0 "30-40% 정당 지지도"
+party_pop_0_40:0 "40-50% 정당 지지도"
+party_pop_0_50:0 "50-60% 정당 지지도"
+party_pop_0_60:0 "60-70% 정당 지지도"
+party_pop_0_70:0 "70-80% 정당 지지도"
+party_pop_0_80:0 "80-90% 정당 지지도"
+party_pop_0_90:0 "90-100% 정당 지지도"

@@ -1,0 +1,155 @@
+###############################
+# Dongbei Decisions Cathegory #
+# by NIKA           		  #
+###############################
+USA_influence_dominance_decision = {
+	
+	USA_influence_dominance_management_governor = {
+		icon = decision_generic_political_discourse
+		visible = {
+			has_variable = USA_governor > 0
+		}
+		cost = 10
+		days_remove = 30
+		days_re_enable = 60
+		modifier = {
+			politicial_power_gain = -0.05
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = USA_governor
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_military
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_social
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_league
+				value = 1
+			}
+			custom_effect_tooltip = USA_governor_gain_1
+			custom_effect_tooltip = USA_military_lose_1
+			custom_effect_tooltip = USA_social_lose_1
+			custom_effect_tooltip = USA_league_lose_1
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	USA_influence_dominance_management_military = {
+		icon = decision_generic_political_discourse
+		visible = {
+			has_variable = USA_military > 0
+		}
+		cost = 10
+		days_remove = 30
+		days_re_enable = 60
+		modifier = {
+			politicial_power_gain = -0.05
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = USA_military
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_governor
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_social
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_league
+				value = 1
+			}
+			custom_effect_tooltip = USA_military_gain_1
+			custom_effect_tooltip = USA_governor_lose_1
+			custom_effect_tooltip = USA_social_lose_1
+			custom_effect_tooltip = USA_league_lose_1
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	USA_influence_dominance_management_social = {
+		icon = decision_generic_political_discourse
+		visible = {
+			has_variable = USA_social > 0
+		}
+		cost = 10
+		days_remove = 30
+		days_re_enable = 60
+		modifier = {
+			politicial_power_gain = -0.05
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = USA_social
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_governor
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_military
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_league
+				value = 1
+			}
+			custom_effect_tooltip = USA_social_gain_1
+			custom_effect_tooltip = USA_governor_lose_1
+			custom_effect_tooltip = USA_military_lose_1
+			custom_effect_tooltip = USA_league_lose_1
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	USA_influence_dominance_management_league = {
+		icon = decision_generic_political_discourse
+		visible = {
+			has_variable = USA_league > 0
+		}
+		cost = 10
+		days_remove = 30
+		days_re_enable = 60
+		modifier = {
+			politicial_power_gain = -0.05
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = USA_league
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_governor
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_military
+				value = 1
+			}
+			subtract_from_variable = {
+				var = USA_social
+				value = 1
+			}
+			custom_effect_tooltip = USA_league_gain_1
+			custom_effect_tooltip = USA_governor_lose_1
+			custom_effect_tooltip = USA_military_lose_1
+			custom_effect_tooltip = USA_social_lose_1
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

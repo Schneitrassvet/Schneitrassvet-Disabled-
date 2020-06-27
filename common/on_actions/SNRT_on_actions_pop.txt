@@ -1,0 +1,10 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				ruling_party_coalition_pop_cal = yes
+				country_event = { id = political.2 }
+			}
+		}
+	}
+}

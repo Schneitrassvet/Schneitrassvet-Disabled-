@@ -1,0 +1,89 @@
+ruling_party_coalition_pop_cal = {
+    set_variable = { coalition_ruling_party_pop = party_popularity@ruling_party }
+    if = {
+        limit = {
+            NOT = { has_government = national_socialism }
+            has_country_flag = coalition_national_socialism
+        }
+        set_temp_variable = { coalition_national_socialism_pop = party_popularity@national_socialism }
+        add_to_variable = { coalition_ruling_party_pop = coalition_national_socialism_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = marxism }
+            has_country_flag = coalition_marxism
+        }
+        set_temp_variable = { coalition_marxism_pop = party_popularity@marxism }
+        add_to_variable = { coalition_ruling_party_pop = coalition_marxism_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = liberal_socialism }
+            has_country_flag = coalition_liberal_socialism
+        }
+        set_temp_variable = { coalition_liberal_socialism_pop = party_popularity@liberal_socialism }
+        add_to_variable = { coalition_ruling_party_pop = coalition_liberal_socialism_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = social_democracy }
+            has_country_flag = coalition_social_democracy
+        }
+        set_temp_variable = { coalition_social_democracy_pop = party_popularity@social_democracy }
+        add_to_variable = { coalition_ruling_party_pop = coalition_social_democracy_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = liberal_democracy }
+            has_country_flag = coalition_liberal_democracy
+        }
+        set_temp_variable = { coalition_liberal_democracy_pop = party_popularity@liberal_democracy }
+        add_to_variable = { coalition_ruling_party_pop = coalition_liberal_democracy_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = conservatism }
+            has_country_flag = coalition_conservatism
+        }
+        set_temp_variable = { coalition_conservatism_pop = party_popularity@conservatism }
+        add_to_variable = { coalition_ruling_party_pop = coalition_conservatism_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = authoritarian }
+            has_country_flag = coalition_authoritarian
+        }
+        set_temp_variable = { coalition_authoritarian_pop = party_popularity@authoritarian }
+        add_to_variable = { coalition_ruling_party_pop = coalition_authoritarian_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = paternal_autocracy }
+            has_country_flag = coalition_paternal_autocracy
+        }
+        set_temp_variable = { coalition_paternal_autocracy_pop = party_popularity@paternal_autocracy }
+        add_to_variable = { coalition_ruling_party_pop = coalition_paternal_autocracy_pop }
+    }
+    if = {
+        limit = {
+            NOT = { has_government = state_totalism }
+            has_country_flag = coalition_state_totalism
+        }
+        set_temp_variable = { coalition_state_totalism_pop = party_popularity@state_totalism }
+        add_to_variable = { coalition_ruling_party_pop = coalition_state_totalism_pop }
+    }
+    
+    multiply_variable = { coalition_ruling_party_pop = 100 }
+}
+ 
+clr_coalition_effect = {
+    clr_country_flag = coalition_national_socialism
+    clr_country_flag = coalition_marxism
+    clr_country_flag = coalition_liberal_socialism
+    clr_country_flag = coalition_social_democracy
+    clr_country_flag = coalition_liberal_democracy
+    clr_country_flag = coalition_conservatism
+    clr_country_flag = coalition_authoritarian
+    clr_country_flag = coalition_paternal_autocracy
+    clr_country_flag = coalition_state_totalism
+}

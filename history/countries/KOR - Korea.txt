@@ -1,0 +1,55 @@
+﻿capital = 266
+
+oob = "KOR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_stability = 0.60
+set_war_support = 0.60
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	KOR_corrupt_government_idea
+	KOR_legacy_of_old_era_idea
+	KOR_broken_economy_idea
+	KOR_influence_of_chaebol_idea
+	KOR_influence_of_russia_idea
+	KOR_less_advanced_army_idea
+	KOR_the_unsan_gold_mine_idea
+}
+
+set_popularities = {
+	national_socialism = 1
+	marxism = 2
+	liberal_socialism = 2
+	social_democracy = 4
+	liberal_democracy = 12
+	conservatism = 13
+	authoritarian = 43
+	paternal_autocracy = 0
+	state_totalism = 23
+}
+
+create_country_leader = {
+	name = "Wu Yi"
+	desc = "POLITICS_WU_YI_DESC"
+	picture = "gfx/leaders/KOR/Portrait_Wu_Yi.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_subtype
+	traits = {
+		#
+	}
+}

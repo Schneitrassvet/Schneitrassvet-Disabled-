@@ -1,0 +1,65 @@
+scripted_gui = {
+
+	party_popularity_number = {
+		window_name = "party_popularity_number_container"
+	}
+
+	party_totalist = {
+		window_name = "national_socialism_container"
+		visible = { has_government = national_socialism }
+	}
+
+	party_syndicalist = {
+		window_name = "marxism_container"
+		visible = { has_government = marxism }
+	}
+
+	party_radical_socialist = {
+		window_name = "liberal_socialism_container"
+		visible = { has_government = liberal_socialism }
+	}
+
+	party_social_democrat = {
+		window_name = "social_democracy_container"
+		visible = { has_government = social_democracy }
+	}
+
+	party_social_liberal = {
+		window_name = "conservatism_container"
+		visible = { has_government = conservatism }
+	}
+
+	party_market_liberal = {
+		window_name = "liberal_democracy_container"
+		visible = { has_government = liberal_democracy }
+	}
+
+	party_social_conservative = {
+		window_name = "authoritarian_container"
+		visible = { has_government = authoritarian }
+	}
+
+	party_authoritarian_democrat = {
+		window_name = "paternal_autocracy_container"
+		visible = { has_government = paternal_autocracy }
+	}
+
+	party_paternal_autocrat = {
+		window_name = "state_totalism_container"
+		visible = { has_government = state_totalism 
+		NOT = { has_country_flag = futurism_government } }
+	}
+
+	party_futurism = {
+		window_name = "futurism_container"
+		visible = { has_country_flag = futurism_government }
+	}
+
+
+	coalition_icon = {
+		window_name = "coalition_container"
+		visible = { has_coalition = yes }
+	}
+
+}
+

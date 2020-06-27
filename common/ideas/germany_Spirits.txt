@@ -1,0 +1,118 @@
+ideas = {
+	country = {
+		GER_freikorps = {
+		
+			picture = GFX_idea_GER_freikorps
+			
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+            
+            allowed_civil_war = {
+                always = yes
+            }
+			removal_cost = -1
+			
+			picture = 
+            
+			on_add = {
+				set_country_flag = can_t_politic
+			}
+			
+            modifier = {
+                stability_factor = -0.05
+            }
+        }
+		GER_sturmtuppen = {
+		
+			picture = GFX_idea_GER_sturmtuppen
+			
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+            
+            allowed_civil_war = {
+                always = yes
+            }
+			removal_cost = -1
+			
+			picture = 
+            
+			on_add = {
+				set_country_flag = can_t_commender
+			}
+			
+            modifier = {
+                stability_factor = -0.05
+            }
+        }
+		GER_spartakusbund = {
+		
+			picture = GFX_idea_GER_spartacus
+			
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+            
+            allowed_civil_war = {
+                always = yes
+            }
+			removal_cost = -1
+			
+			picture = 
+            
+			on_add = {
+				set_country_flag = can_t_company
+			}
+			
+            modifier = {
+                stability_factor = -0.05
+            }
+        }
+		GER_empire_of_left = {
+		
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+            
+            allowed_civil_war = {
+                always = yes
+            }
+			removal_cost = -1
+			
+			picture = 
+            
+            modifier = {
+                conscription = -0.01
+				war_support_factor = -0.40
+				industrial_capacity_factory
+            }
+			on_add = {
+				set_country_flag = can_t_army
+			}
+        }
+		GER_belle_epoque = {
+		
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+            
+            allowed_civil_war = {
+                always = yes
+            }
+			removal_cost = -1
+			
+			picture = 
+            
+            modifier = {
+                consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.20
+            }
+        }
+	}
+}

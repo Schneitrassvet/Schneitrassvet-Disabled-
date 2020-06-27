@@ -1,0 +1,16 @@
+focus_tree = {
+	id = PER_focus_cossacks
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 5
+			tag = PER
+		}
+	}
+	shared_focus = PER_trans-iranian_railway
+	
+	continuous_focus_position = { x = 30, y = 4000 }
+	
+	default = no
+}

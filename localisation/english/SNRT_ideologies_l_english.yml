@@ -1,0 +1,33 @@
+﻿l_english:
+
+national_socialism:0 "National-Socialist"
+national_socialism_noun:0 "National-Socialism"
+national_socialism_desc:0 "National-Socialism Regime"
+
+marxism:0 "Marxist"
+marxism_noun:0 "Marxism"
+marxism_desc:0 "Marxism Regime"
+
+liberal_socialism:0 "Liberal Socialist"
+liberal_socialism_noun:0 "Liberal Socialism"
+liberal_socialism_desc:0 "Liberal Socialist Regime"
+
+social_democracy:0 "Social Democrat"
+social_democracy_noun:0 "Social Democracy"
+social_democracy_desc:0 "Social Democracy Regime"
+
+liberal_democracy:0 "Liberal Democrat"
+liberal_democracy_noun:0 "Liberal Democracy"
+liberal_democracy_desc:0 "Liberal Democracy Regime"
+
+conservatism:0 "Conservative Democrat"
+conservatism_noun:0 "Conservative Democracy"
+conservatism_desc:0 "Conservative Democracy Regime"
+
+authoritarian:0 "Authoritarian"
+authoritarian_noun:0 "Authoritarianism"
+authoritarian_desc:0 "Authoritarianism Regime"
+
+state_totalism:0 "State Totalist"
+state_totalism_noun:0 "State Totalism"
+state_totalism_desc:0 "State Totalist Regime"

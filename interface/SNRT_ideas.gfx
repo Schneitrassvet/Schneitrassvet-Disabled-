@@ -1,0 +1,57 @@
+spriteTypes = {
+
+	### JAP ###
+
+	spriteType = {
+		name = "GFX_idea_JAP_nation_divided"
+		texturefile = "gfx/interface/ideas/national_spirits/JAP/JAP_nation_divided_idea.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_country_in_flames"
+		texturefile = "gfx/interface/ideas/national_spirits/JAP/JAP_country_in_flames_idea.tga"
+	}
+	
+	### GER ###
+	spriteType = {
+		name = "GFX_idea_GER_freikorps"
+		texturefile = "gfx/interface/ideas/national_spirits/GER/freikorps.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_sturmtuppen"
+		texturefile = "gfx/interface/ideas/national_spirits/GER/sa_logo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_spartacus"
+		texturefile = "gfx/interface/ideas/national_spirits/GER/spartacus.dds"
+	}
+	
+	### KOR ###
+	
+	spriteType = {
+		name = "GFX_idea_KOR_broken_economy"
+		texturefile = "gfx/interface/ideas/national_spirits/KOR/KOR_broken_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_qt_army"
+		texturefile = "gfx/interface/ideas/national_spirits/KOR/KOR_qt_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_unsan_mine"
+		texturefile = "gfx/interface/ideas/national_spirits/KOR/KOR_unsan_mine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_russia_sphere"
+		texturefile = "gfx/interface/ideas/national_spirits/KOR/russia_sphere.dds"
+	}
+	
+	### PER ###
+	
+	spriteType = {
+		name = "GFX_idea_PER_minority_problem"
+		texturefile = "gfx/interface/ideas/national_spirits/PER/idea_PER_minority_problem.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PER_rebelious_cossacks"
+		texturefile = "gfx/interface/ideas/national_spirits/PER/idea_PER_rebelious_cossacks.dds"
+	}
+}

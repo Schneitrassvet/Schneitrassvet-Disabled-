@@ -1,0 +1,54 @@
+﻿l_english:
+ KIEL_CANAL:0 "카이저빌헬름카날"
+ #GER_greater_german_reich_fascism:0 "대독일제국"
+ 
+ TAN_communism_party:0 "투바 인민혁명당"
+ TAN_communism_party_long:0 "투바 인민혁명당"
+ 
+ POL_neutrality_party:0 "피우수트스키의 대령단"
+ 
+ SER_communism_party:0 "세르비아 공산주의자 연맹"
+ SER_communism_party_long:0 "세르비아 공산주의자 연맹" #League of Communists of Serbia
+ 
+ SWE_communism_party:0 "사회주의당" #Socialist Party
+ SWE_communism_party_long:0 "사회주의당"
+ 
+ CAN_fascism_party:0 "국가사회기독당"
+ CAN_fascism_party_long:0 "국가사회기독당"
+ 
+ KOR_neutrality_party:0 "좌우합작운동"
+ KOR_fascism_party:0 "한국독립당"
+ KOR_fascism_party_long:0 "한국독립당"
+ 
+ KOR_fascism:0 "한국"
+ KOR_fascism_DEF:0 "한국"
+ KOR_democratic:0 "대한민국"
+ KOR_democratic_DEF:0 "대한민국"
+ KOR_neutrality:0 "조선인민공화국"
+ KOR_neutrality_DEF:0 "조선인민공화국"
+ 
+ WGR_democratic:0 "독일연방공화국"
+ WGR_democratic_DEF:0 "독일연방공화국"
+ 
+ DDR_communism:0 "독일민주공화국"
+ DDR_communism_DEF:0 "독일민주공화국"
+ 
+ ITA_democratic:0 "이탈리아 공화국"
+ ITA_democratic_DEF:0 "이탈리아 공화국"
+ 
+ FRA_democratic_party:0 "인민전선"
+ 
+ GRE_neutrality_party:0 "자유사상가당"
+ GRE_neutrality_party_long:0 "자유사상가당"
+ 
+ HUN_EMPIRE_democratic:0 "대오스트리아 합중국"
+ HUN_EMPIRE_communism:0 "도나우 사회주의 연방"
+ HUN_GREATER_communism:0 "헝가리 소비에트 공화국"
+ HUN_EMPIRE_democratic_DEF:0 "대오스트리아 합중국"
+ HUN_EMPIRE_communism_DEF:0 "도나우 사회주의 연방"
+ HUN_GREATER_communism_DEF:0 "헝가리 소비에트 공화국"
+ 
+ EGY_neutrality_party:0 "와프드당"
+ 
+ MON_communism:0 "몽골인민공화국"
+ MON_communism_DEF:0 "몽골인민공화국"

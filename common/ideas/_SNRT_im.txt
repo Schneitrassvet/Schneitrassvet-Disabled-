@@ -1,0 +1,6 @@
+ideas = {
+
+	interior_minister = {
+		}
+		
+}

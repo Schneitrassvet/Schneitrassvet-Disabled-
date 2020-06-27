@@ -1,0 +1,21 @@
+state={
+	id=1029
+	name="STATE_1029"
+
+	history={
+		owner = ZHL
+		add_core_of = ZHL
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		1139 4114 4144 4606 7074 
+	}
+	manpower=3024000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

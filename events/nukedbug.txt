@@ -1,0 +1,55 @@
+add_namespace = nukedebug
+
+country_event = {
+	id = nukedebug.1
+	immediate = {
+		set_technology = {
+			nukes = 1
+		}
+		add_nuclear_bombs = 500
+	}
+	is_triggered_only = yes
+	
+	option = { }
+}
+country_event = {
+	id = nukedebug.2
+	is_triggered_only = yes
+	
+	option = { 
+		282 = { #Tokyo
+				remove_province_modifier = {
+					static_modifiers = { terrain_nuked1 }
+					province = { id = 1182 }
+				}
+		}
+	}
+}
+country_event = {
+	id = nukedebug.3
+	is_triggered_only = yes
+	
+	option = { 
+		282 = { #Tokyo
+				add_province_modifier = {
+					static_modifiers = { terrain_nuked1 }
+					province = { id = 1182 }
+				}
+		}
+	}
+}
+country_event = {
+	id = nukedebug.4
+	is_triggered_only = yes
+	
+	option = { 
+		282 = { #Tokyo
+				remove_province_modifier = {
+					static_modifiers = { 
+						terrain_nuked1 
+					}
+					province = 1182
+				}
+		}
+	}
+}

@@ -1,0 +1,272 @@
+PER_explore_resources_category = {
+	PER_find_steel_mine = {
+		icon = steel
+		cost = 20
+		complete_effect = {
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		days_remove = 20
+		remove_effect = {
+			add_resource = {
+				type = steel
+				amount = 10
+				state = 411
+			}
+		}
+		days_re_enable = 60
+	}
+	
+	PER_find_chromite_mine = {
+		icon = chromium
+		cost = 20
+		complete_effect = {
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		days_remove = 30
+		remove_effect = {
+			add_resource = {
+				type = chromium
+				amount = 5
+				state = 410
+			}
+		}
+		days_re_enable = 100
+	}
+}
+
+PER_suppress_cossacks_category = {
+	PER_coming_cossacks = {
+		priority = 10
+		icon = generic_prepare_civil_war
+		days_mission_timeout = 100
+		is_good = no
+		allowed = {
+			original_tag = PER
+			PER = { 
+				NOT = {
+					OR = {
+						has_country_flag = PER_suppression_success_flag
+						has_country_flag = PER_suppression_fail_flag
+					}
+				}
+			}
+		}
+		activation = {
+			has_completed_focus = PER_suppression
+        }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = per.cossack.tooltip
+				266 = { is_demilitarized_zone = no }
+				410 = { is_demilitarized_zone = no }
+				420 = { is_demilitarized_zone = no }
+				421 = { is_demilitarized_zone = no }
+				417 = { is_demilitarized_zone = no }
+				413 = { is_demilitarized_zone = no }
+				411 = { is_demilitarized_zone = no }
+				416 = { is_demilitarized_zone = no }
+				414 = { is_demilitarized_zone = no }
+				418 = { is_demilitarized_zone = no }
+				412 = { is_demilitarized_zone = no }
+			}
+		}
+		timeout_effect = {
+			custom_effect_tooltip = per.cossack.lose.tooltip
+			hidden_effect = {
+				remove_mission = PER_coming_cossacks
+				country_event = { id = irancos.21 }
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = per.cossack.win.tooltip
+			hidden_effect = {
+				remove_mission = PER_coming_cossacks
+				country_event = { id = irancos.20 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PER_advance_to_isfahan = {
+		icon = generic_prepare_civil_war
+		visible = {
+			411 = { is_demilitarized_zone = yes }
+		}
+		available = {
+			NOT = { has_country_flag = PER_cant_attack_flag }
+		}
+		days_remove = 5
+		days_re_enable = 10
+		complete_effect = {
+			set_country_flag = PER_cant_attack_flag
+		}
+		remove_effect = {
+			clr_country_flag = PER_cant_attack_flag
+			random_list = {
+				var:per_gov_power = { country_event = { id = irancos.0 } }
+				var:per_cos_power = { country_event = { id = irancos.1 } }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	PER_advance_to_fars = {
+		icon = generic_prepare_civil_war
+		visible = {
+			412 = { is_demilitarized_zone = yes }
+		}
+		available = {
+			NOT = { has_country_flag = PER_cant_attack_flag }
+		}
+		days_remove = 5
+		days_re_enable = 10
+		complete_effect = {
+			set_country_flag = PER_cant_attack_flag
+		}
+		remove_effect = {
+			clr_country_flag = PER_cant_attack_flag
+			random_list = {
+				var:per_gov_power = { country_event = { id = irancos.2 } }
+				var:per_cos_power = { country_event = { id = irancos.3 } }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	PER_advance_to_khorasan = {
+		icon = generic_prepare_civil_war
+		visible = {
+			416 = { is_demilitarized_zone = yes }
+		}
+		available = {
+			NOT = { has_country_flag = PER_cant_attack_flag }
+		}
+		days_remove = 5
+		days_re_enable = 10
+		complete_effect = {
+			set_country_flag = PER_cant_attack_flag
+		}
+		remove_effect = {
+			clr_country_flag = PER_cant_attack_flag
+			random_list = {
+				var:per_gov_power = { country_event = { id = irancos.4 } }
+				var:per_cos_power = { country_event = { id = irancos.5 } }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	PER_advance_to_kurdistan = {
+		icon = generic_prepare_civil_war
+		visible = {
+			421 = { is_demilitarized_zone = yes }
+		}
+		available = {
+			NOT = { has_country_flag = PER_cant_attack_flag }
+		}
+		days_remove = 5
+		days_re_enable = 10
+		complete_effect = {
+			set_country_flag = PER_cant_attack_flag
+		}
+		remove_effect = {
+			clr_country_flag = PER_cant_attack_flag
+			random_list = {
+				var:per_gov_power = { country_event = { id = irancos.6 } }
+				var:per_cos_power = { country_event = { id = irancos.7 } }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	PER_advance_to_khuzestan = {
+		icon = generic_prepare_civil_war
+		visible = {
+			413 = { is_demilitarized_zone = yes }
+		}
+		available = {
+			NOT = { has_country_flag = PER_cant_attack_flag }
+		}
+		days_remove = 5
+		days_re_enable = 10
+		complete_effect = {
+			set_country_flag = PER_cant_attack_flag
+		}
+		remove_effect = {
+			clr_country_flag = PER_cant_attack_flag
+			random_list = {
+				var:per_gov_power = { country_event = { id = irancos.8 } }
+				var:per_cos_power = { country_event = { id = irancos.9 } }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	PER_advance_to_sistan = {
+		icon = generic_prepare_civil_war
+		visible = {
+			410 = { is_demilitarized_zone = yes }
+		}
+		available = {
+			NOT = { has_country_flag = PER_cant_attack_flag }
+		}
+		days_remove = 5
+		days_re_enable = 10
+		complete_effect = {
+			set_country_flag = PER_cant_attack_flag
+		}
+		remove_effect = {
+			clr_country_flag = PER_cant_attack_flag
+			random_list = {
+				var:per_gov_power = { country_event = { id = irancos.10 } }
+				var:per_cos_power = { country_event = { id = irancos.11 } }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	PER_advance_to_kerman = {
+		icon = generic_prepare_civil_war
+		visible = {
+			414 = { is_demilitarized_zone = yes }
+		}
+		available = {
+			NOT = { has_country_flag = PER_cant_attack_flag }
+		}
+		days_remove = 5
+		days_re_enable = 10
+		complete_effect = {
+			set_country_flag = PER_cant_attack_flag
+		}
+		remove_effect = {
+			clr_country_flag = PER_cant_attack_flag
+			random_list = {
+				var:per_gov_power = { country_event = { id = irancos.12 } }
+				var:per_cos_power = { country_event = { id = irancos.13 } }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

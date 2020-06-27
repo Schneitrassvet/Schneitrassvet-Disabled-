@@ -1,0 +1,13 @@
+add_namespace = KOR_debt
+
+country_event = {
+	id = KOR_debt.1
+	title = KOR_debt.1.t
+	desc = KOR_debt.1.d
+	is_triggered_only = yes
+	
+	option = {
+		add_ideas = {
+		}
+	}
+}

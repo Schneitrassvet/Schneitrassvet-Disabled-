@@ -1,0 +1,92 @@
+ideas = {
+
+	industrial_concern = {}
+	theorist = {}
+	chief_of_army = {}
+	chief_of_navy = {}
+	chief_of_air_force = {}
+	chief_of_staff = {}
+
+	hidden_ideas = {
+
+		party_pop_0_00 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_00" }
+			modifier = { political_power_gain = -0.30 }
+		}
+
+		party_pop_0_10 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_10" }
+			modifier = { political_power_gain = -0.15 }
+		}
+
+		party_pop_0_20 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_20" }
+			modifier = { political_power_gain = -0.05 }
+		}
+
+		party_pop_0_30 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_30" }
+			modifier = { political_power_gain = 0.05 }
+		}
+
+		party_pop_0_40 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_40" }
+			modifier = { political_power_gain = 0.10 }
+		}
+
+		party_pop_0_50 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_50" }
+			modifier = { political_power_gain = 0.20 }
+		}
+
+		party_pop_0_60 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_60" }
+			modifier = { political_power_gain = 0.40 }
+		}
+
+		party_pop_0_70 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_70" }
+			modifier = { political_power_gain = 0.60 }
+		}
+
+		party_pop_0_80 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_80" }
+			modifier = { political_power_gain = 0.80 }
+		}
+
+		party_pop_0_90 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_90" }
+			modifier = { political_power_gain = 1.00 }
+		}
+	}
+}
