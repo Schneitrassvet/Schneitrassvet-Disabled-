@@ -1,14 +1,10 @@
 ideologies = {
 	
-	national_socialism = {
+	state_totalism = {
 		types = {
-			national_socialism_subtype = {}
+			state_totalism_subtype = {}
 		
 		
-			national_techno_socialism = {}
-	
-		
-			ethnic_socialism = {}
 		}
 		
 		dynamic_faction_names = {}
@@ -48,18 +44,11 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	marxism = {	
+	despotism = {	
 		types = {
-			marxism_subtype = {}
+			despotism_subtype = {}
 		
 		
-			luxemburgism = {}
-		
-		
-			centrist_marxism = {}
-		
-		
-			bolivarianism = {}
 		}
 		
 		dynamic_faction_names = {}
@@ -99,15 +88,11 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	liberal_socialism = {	
+	authoritarian_democracy = {	
 		types = {
-			liberal_socialism_subtype = {}
+			authoritarian_democracy_subtype = {}
 		
 		
-			anarchism = {}
-		
-		
-			syndicalism = {}
 		}
 		
 		dynamic_faction_names = {}
@@ -147,18 +132,11 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	social_democracy = {	
+	liberal_democracy = {	
 		types = {
-			social_democracy_subtype = {}
+			liberal_democracy_subtype = {}
 		
 		
-			german_social_democracy = {}
-		
-		
-			fabianism = {}
-		
-		
-			jacobinism = {}
 		}
 		
 		dynamic_faction_names = {}
@@ -198,15 +176,11 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	liberal_democracy = {	
+	social_liberal = {	
 		types = {
-			liberal_democracy_subtype = {}
+			social_liberal_subtype = {}
 		
 		
-			libertarianism = {}
-		
-		
-			social_liberalism = {}
 		}
 		
 		dynamic_faction_names = {}
@@ -246,18 +220,55 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	conservatism = {	
+	radical_socialism = {	
 		types = {
-			conservatism_subtype = {}
+			radical_socialism_subtype = {}
 		
 		
-			social_conservatism = {}
+		}
+		
+		dynamic_faction_names = {}
+		
+		color = { 21 255 0 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = no
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			take_states_cost_factor = 0.25
+			justify_war_goal_when_in_major_war_time = 0.25
+			annex_cost_factor = 0.5
+			puppet_cost_factor = 0.25
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		
+		ai_neutral = yes
+	}
+	
+	revolutionary_socialism = {	
+		types = {
+			revolutionary_socialism_subtype = {}
 		
 		
-			national_conservatism = {}
-		
-		
-			liberal_conservatism = {}
 		}
 		
 		dynamic_faction_names = {}
@@ -297,18 +308,11 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	authoritarian = {	
+	anarchism = {	
 		types = {
-			authoritarian_subtype = {}
+			anarchism_subtype = {}
 		
 		
-			despotism = {}
-		
-		
-			populism = {}
-		
-		
-			fundamentalism = {}
 		}
 		
 		dynamic_faction_names = {}
@@ -390,18 +394,11 @@ ideologies = {
 	
 	}
 	
-	state_totalism = {	
+	national_socialism = {	
 		types = {
-			state_totalism_subtype = {}
+			national_socialism_subtype = {}
 		
 		
-			ethnic_integralism = {}
-		
-		
-			ethnic_colonialism = {}
-		
-		
-			national_technocrat = {}
 		
 			futurism = { can_be_randomly_selected = no }
 		}
