@@ -1,6 +1,6 @@
 state={
-	id=903
-	name="STATE_903"
+	id=1109
+	name="STATE_1109"
 
 	history={
 		owner = KOR
@@ -9,16 +9,16 @@ state={
 
 		}
 		victory_points = {
-			7204 1 
+			13294 1 
 		}
 		add_core_of = KOR
 
 	}
 
 	provinces={
-		1100 7175 7204 11992 13306 
+		13293 13294 
 	}
-	manpower=1005001
+	manpower=401000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }
