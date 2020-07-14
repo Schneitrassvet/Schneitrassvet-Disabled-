@@ -1,14 +1,14 @@
 state={
 	id=1139
 	name="STATE_1139"
-	manpower = 500390
+	manpower = 500391
 	
-	state_category = city
+	state_category = large_town
 
 	history={
 		owner = ISR
 		victory_points = {
-			705 10
+			705 5
 		}
 		buildings = {
 			infrastructure = 5

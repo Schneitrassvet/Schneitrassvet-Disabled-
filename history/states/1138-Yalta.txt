@@ -1,9 +1,9 @@
 state={
 	id=1138
 	name="STATE_1138"
-	manpower = 64231
+	manpower = 64232
 	
-	state_category = city
+	state_category = town
 
 	history={
 		owner = ISR
