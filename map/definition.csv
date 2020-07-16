@@ -13315,4 +13315,15 @@
 13314;55;96;173;land;true;forest;6
 13315;170;128;30;land;false;desert;7
 13316;24;20;53;land;false;plains;6
-13317;
+13317;76;170;80;land;false;desert;7
+13318;124;117;77;land;false;desert;7
+13319;78;124;90;land;false;hills;6
+13320;124;38;27;land;false;hills;6
+13321;206;187;168;land;false;hills;6
+13322;3;44;24;land;false;hills;6
+13323;49;196;113;land;false;mountain;6
+13324;8;132;4;land;false;plains;6
+13325;202;16;117;land;true;plains;6
+13326;5;30;94;land;false;plains;6
+13327;43;187;114;false;urban;6
+13328;250;215;149;true;hills;6
