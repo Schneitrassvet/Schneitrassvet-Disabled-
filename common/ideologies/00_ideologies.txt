@@ -3,8 +3,6 @@ ideologies = {
 	state_totalism = {
 		types = {
 			state_totalism_subtype = {}
-		
-		
 		}
 		
 		dynamic_faction_names = {}
@@ -47,8 +45,6 @@ ideologies = {
 	despotism = {	
 		types = {
 			despotism_subtype = {}
-		
-		
 		}
 		
 		dynamic_faction_names = {}
@@ -91,8 +87,6 @@ ideologies = {
 	authoritarian_democracy = {	
 		types = {
 			authoritarian_democracy_subtype = {}
-		
-		
 		}
 		
 		dynamic_faction_names = {}
@@ -135,8 +129,6 @@ ideologies = {
 	liberal_democracy = {	
 		types = {
 			liberal_democracy_subtype = {}
-		
-		
 		}
 		
 		dynamic_faction_names = {}
@@ -179,8 +171,6 @@ ideologies = {
 	social_liberal = {	
 		types = {
 			social_liberal_subtype = {}
-		
-		
 		}
 		
 		dynamic_faction_names = {}
@@ -223,8 +213,6 @@ ideologies = {
 	radical_socialism = {	
 		types = {
 			radical_socialism_subtype = {}
-		
-		
 		}
 		
 		dynamic_faction_names = {}
@@ -267,8 +255,6 @@ ideologies = {
 	revolutionary_socialism = {	
 		types = {
 			revolutionary_socialism_subtype = {}
-		
-		
 		}
 		
 		dynamic_faction_names = {}
@@ -311,8 +297,6 @@ ideologies = {
 	anarchism = {	
 		types = {
 			anarchism_subtype = {}
-		
-		
 		}
 		
 		dynamic_faction_names = {}
