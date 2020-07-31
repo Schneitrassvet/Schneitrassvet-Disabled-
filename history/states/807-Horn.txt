@@ -19,7 +19,7 @@ state={
 	}
 
 	provinces={
-		732 3718 6552 6723 6739 9527 
+		732 3718 6552 6723 6739 9527 13352
 	}
 	manpower=530420
 	buildings_max_level_factor=1.000

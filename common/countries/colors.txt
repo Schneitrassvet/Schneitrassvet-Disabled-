@@ -748,3 +748,7 @@ GZC = {
 	color = rgb { 204 102 102 }
 	color_ui = rgb { 204 102 102 }
 }
+HYD = {
+	color = rgb { 167 183 78 }
+	color_ui = rgb { 167 183 78 }
+}
