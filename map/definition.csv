@@ -13383,3 +13383,7 @@
 13382;51;25;12;land;true;hills;1
 13383;203;161;209;land;false;mountain;1
 13384;56;127;52;land;true;plains;6
+13385;255;119;122;land;false;mountain;1
+13386;255;196;71;land;false;plains;1
+13387;255;186;102;land;false;plains;1
+13388;196;255;119;land;false;plains;1
