@@ -1,0 +1,28 @@
+### ENG idea
+ideas = {
+	##############
+	# Country ideas
+	##############
+
+	country = {
+
+		# Start
+		ENG_waves_of_anxiety = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_waves_of_anxiety"}
+			picture = GFX_idea_ENG_waves_of_anxiety
+			modifier = {
+				stability_factor = -0.50
+				war_support_factor = -0.50
+			}
+		}
+		
+		ENG_political_crisis = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_political_crisis"}
+			picture = GFX_idea_ENG_political_crisis
+			modifier = {
+				political_power_factor = -0.50
+				stability_weekly = -0.10
+			}
+		}
+	}
+}
