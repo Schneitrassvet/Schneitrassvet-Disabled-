@@ -1,25 +1,25 @@
 state={
 	id=817
 	name="STATE_817"
-
+ 
 	history={
 		owner = FRA
 		buildings = {
-			infrastructure = 7
+			infrastructure = 9
 
 		}
 		add_core_of = FRA
 
 		victory_points = {
-			6545 1 
+			11506 40
 		}
 
 	}
 
 	provinces={
-		3546 6545 9505  13374
+		11506
 	}
-	manpower=210300
+	manpower=2851346
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category= metropolis
 }

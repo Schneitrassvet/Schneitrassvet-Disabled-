@@ -20,15 +20,31 @@ state={
 		victory_points = {
 			11535 1 
 		}
+		victory_points = {
+			9434 10 
+		}
+		victory_points = {
+			11563 5 
+		}
+		victory_points = {
+			485 3 
+		}
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 1
+			industrial_complex = 2
 			air_base = 6
 			6449 = {
 				naval_base = 3
 				coastal_bunker = 1
 
 			}
+			9434 = {
+				naval_base = 5
+				coastal_bunker = 1
+
+			}
+			485 = {
+				naval_base = 1
 
 		}
 		add_core_of = FRA
@@ -36,9 +52,9 @@ state={
 	}
 
 	provinces={
-		539 553 3534 3549 3579 6449 6599 9550 9578 11521 11535 
+		539 553 3534 3549 3579 6449 6599 9550 9578 11521 11535 485 6569 9434 11563
 	}
-	manpower=1401100
+	manpower=2332100
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=metropolis
 }
