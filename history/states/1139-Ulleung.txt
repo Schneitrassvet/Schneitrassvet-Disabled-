@@ -1,0 +1,24 @@
+state =	{
+	id=1139
+	name="STATE_1139"
+	manpower = 8921
+	
+	state_category = town
+	
+	history	= {
+		owner = KOR
+		victory_points = {
+			13328
+		}
+		buildings = {
+			infrastructure = 3
+			13328 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = KOR
+	}
+	provinces = {
+		13328
+	}
+}
