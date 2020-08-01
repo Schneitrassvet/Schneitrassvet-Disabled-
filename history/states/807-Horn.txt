@@ -8,6 +8,9 @@ state={
 			infrastructure = 7
 
 		}
+		victory_points = {
+			9648 5 
+		}
 		add_core_of = AUS
 		1938.3.12 = {
 			owner = GER
@@ -19,7 +22,7 @@ state={
 	}
 
 	provinces={
-		732 3718 6552 6723 6739 9527 13352
+		6690 9679 9650 6691 6687 653 9648 9646
 	}
 	manpower=530420
 	buildings_max_level_factor=1.000

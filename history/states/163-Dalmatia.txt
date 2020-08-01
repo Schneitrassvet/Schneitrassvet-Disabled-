@@ -7,9 +7,6 @@ state={
 		owner = AUS
 		#add_core_of = YUG
 		add_core_of = CRO
-		victory_points = {
-			11901 1 
-		}
 		buildings = {
 			infrastructure = 5
 			11901 = {
@@ -22,7 +19,7 @@ state={
 	}
 
 	provinces={
-		11901 13269 13349
+		13269
 	}
 	manpower=18000
 	buildings_max_level_factor=1.000
