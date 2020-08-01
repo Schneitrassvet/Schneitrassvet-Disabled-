@@ -33,14 +33,15 @@ add_ideas = {
 
 set_popularities = {
 	national_socialism = 1
-	marxism = 2
-	liberal_socialism = 2
-	social_democracy = 4
-	liberal_democracy = 12
-	conservatism = 13
-	authoritarian = 43
-	paternal_autocracy = 0
-	state_totalism = 23
+	anarchism = 1
+	revolutionary_socialism = 2
+	radical_socialism = 18
+	liberal_democracy = 17
+	conservatism = 18
+	social_liberal = 8
+	authoritarian_democracy = 11
+	despotism = 14
+	state_totalism = 10
 }
 
 create_country_leader = {
