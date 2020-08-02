@@ -9,10 +9,13 @@ state={
 	history={
 		owner = KOR
 		victory_points = {
-			848 10
+			848 15
 		}
 		victory_points = {
-			6822 5
+			6822 3
+		}
+		victory_points = {
+			6928 5
 		}
 		buildings = {
 			infrastructure = 4
@@ -31,7 +34,7 @@ state={
 	}
 
 	provinces={
-		848 898 959 3803 3852 3860 3904 3981 6822 6922 6928 6944 10083 11878 
+		848 852 898 959 3803 3852 3860 3904 3981 6822 6922 6928 6944 9899 10083 11878 
 	}
 	manpower=321000
 	buildings_max_level_factor=1.000
