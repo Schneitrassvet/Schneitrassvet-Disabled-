@@ -7,7 +7,7 @@ ideologies = {
 		
 		dynamic_faction_names = {}
 		
-		color = { 165 25 25 }
+		color = { 37 49 90 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -29,7 +29,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			justify_war_goal_when_in_major_war_time = 0.25
 			annex_cost_factor = 0.5
 			puppet_cost_factor = 0.25
@@ -49,7 +48,7 @@ ideologies = {
 		
 		dynamic_faction_names = {}
 		
-		color = { 218 13 13 }
+		color = { 74 28 107 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -71,7 +70,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			justify_war_goal_when_in_major_war_time = 0.25
 			annex_cost_factor = 0.5
 			puppet_cost_factor = 0.25
@@ -91,7 +89,7 @@ ideologies = {
 		
 		dynamic_faction_names = {}
 		
-		color = { 235 92 92 }
+		color = { 137 137 137 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -113,7 +111,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			justify_war_goal_when_in_major_war_time = 0.25
 			annex_cost_factor = 0.5
 			puppet_cost_factor = 0.25
@@ -126,14 +123,14 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	liberal_democracy = {	
+	conservatism = {	
 		types = {
-			liberal_democracy_subtype = {}
+			conservatism_subtype = {}
 		}
 		
 		dynamic_faction_names = {}
 		
-		color = { 245 179 179 }
+		color = { 46 95 139 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -155,7 +152,47 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
+			justify_war_goal_when_in_major_war_time = 0.25
+			annex_cost_factor = 0.5
+			puppet_cost_factor = 0.25
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		
+		ai_neutral = yes
+	}
+	
+	liberal_democracy = {	
+		types = {
+			liberal_democracy_subtype = {}
+		}
+		
+		dynamic_faction_names = {}
+		
+		color = { 112 163 23 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_join_factions = no
+		}
+		
+		can_host_government_in_exile = no
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
 			justify_war_goal_when_in_major_war_time = 0.25
 			annex_cost_factor = 0.5
 			puppet_cost_factor = 0.25
@@ -197,7 +234,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			justify_war_goal_when_in_major_war_time = 0.25
 			annex_cost_factor = 0.5
 			puppet_cost_factor = 0.25
@@ -217,7 +253,7 @@ ideologies = {
 		
 		dynamic_faction_names = {}
 		
-		color = { 21 255 0 }
+		color = { 245 179 179 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -239,7 +275,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			justify_war_goal_when_in_major_war_time = 0.25
 			annex_cost_factor = 0.5
 			puppet_cost_factor = 0.25
@@ -259,7 +294,7 @@ ideologies = {
 		
 		dynamic_faction_names = {}
 		
-		color = { 75 147 174 }
+		color = { 235 92 92 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -281,7 +316,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			justify_war_goal_when_in_major_war_time = 0.25
 			annex_cost_factor = 0.5
 			puppet_cost_factor = 0.25
@@ -301,7 +335,7 @@ ideologies = {
 		
 		dynamic_faction_names = {}
 		
-		color = { 137 137 137 }
+		color = { 218 13 13 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -323,7 +357,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			justify_war_goal_when_in_major_war_time = 0.25
 			annex_cost_factor = 0.5
 			puppet_cost_factor = 0.25
@@ -336,51 +369,9 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	paternal_autocracy = {
+	state_socialism = {	
 		types = {
-			paternal_autocracy_subtype = {}
-		}
-		
-		dynamic_faction_names = {}
-		color = { 45 45 45 }
-		
-		rules = {
-			can_create_collaboration_government = no
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = no
-			can_join_factions = no
-		}
-		
-		can_host_government_in_exile = no
-		
-		war_impact_on_world_tension = 0
-		faction_impact_on_world_tension = 0
-		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			justify_war_goal_when_in_major_war_time = 0.25
-			annex_cost_factor = 0.5
-			puppet_cost_factor = 0.25
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 5.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 5
-		}
-		
-		ai_neutral = yes
-	
-	}
-	
-	national_socialism = {	
-		types = {
-			national_socialism_subtype = {}
+			state_socialism_subtype = {}
 		
 		
 		
@@ -389,7 +380,7 @@ ideologies = {
 		
 		dynamic_faction_names = {}
 		
-		color = { 37 49 90 }
+		color = { 165 25 25 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -411,7 +402,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			justify_war_goal_when_in_major_war_time = 0.25
 			annex_cost_factor = 0.5
 			puppet_cost_factor = 0.25
