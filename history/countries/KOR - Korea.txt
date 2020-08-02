@@ -15,7 +15,7 @@ set_stability = 0.60
 set_war_support = 0.60
 
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_WU_YI_DESC"
 	picture = "gfx/leaders/KOR/Portrait_Wu_Yi.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democracy_subtype
+	ideology = conservatism_subtype
 	traits = {
 		#
 	}

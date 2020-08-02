@@ -1,28 +1,32 @@
 ﻿l_english:
  
  ### Parties ###
-  KOR_national_socialism_party:0 "조선공산당(강)"
-  KOR_national_socialism_party_long:0 "조선공산당 강경파"
-  KOR_marxism_party:0 "조선공산당(온)"
-  KOR_marxism_party_long:0 "조선공산당 온건파"
-  KOR_liberal_socialism_party:0 "아나키스트 연맹"
-  KOR_liberal_socialism_party_long:0 "아나키스트 연맹"
-  KOR_social_democracy_party:0 "한인사회당"
-  KOR_social_democracy_party_long:0 "한인사회당"
-  KOR_liberal_democracy_party:0 "신한청년당(급)"
-  KOR_liberal_democracy_party_long:0 "신한청년당 급진파"
-  KOR_conservatism_party:0 "신한청년당(온)"
-  KOR_conservatism_party_long:0 "신한청년당 온건파"
-  KOR_authoritarian_party:0 "황국협회"
-  KOR_authoritarian_party_long:0 "황국협회"
+  KOR_state_socialism_party:0 "조선공산당(강경)"
+  KOR_state_socialism_party_long:0 "조선공산당 강경파"
+  KOR_revolutionary_socialism_party:0 "조선공산당(온건)"
+  KOR_revolutionary_socialism_party_long:0 "조선공산당 온건파"
+  KOR_anarchism_party:0 "아나키스트 연맹"
+  KOR_anarchism_party_long:0 "아나키스트 연맹"
+  KOR_radical_socialism_party:0 "신한청년당(좌파)"
+  KOR_radical_socialism_party_long:0 "신한청년당 좌파"
+  KOR_liberal_democracy_party:0 "신한청년당(우파)"
+  KOR_liberal_democracy_party_long:0 "신한청년당 우파"
+  KOR_social_liberal_party:0 "신한청년당(중도파)"
+  KOR_social_liberal_party_long:0 "신한청년당 중도파"
+  KOR_conservatism_party:0 "제국당(개혁파)"
+  KOR_conservatism_party_long:0 "제국당 개혁파"
+  KOR_authoritarian_democracy_party:0 "유림당 / 민족당 (연립)"
+  KOR_authoritarian_democracy_party_long:0 "유림당 / 민족당 (연립)"
+  Kor_despotism_party:0 "제국당(수구파)"
+  Kor_despotism_party_long:0 "제국당 수구파"
   KOR_state_totalism_party:0 "민총련"
   KOR_state_totalism_party_long:0 "국민총력조선연맹"
   
  
  ### Ideas ###
  
-  KOR_corrupt_government_idea:0 "부패한 정부"
-  KOR_corrupt_government_idea_desc:0 "경제는 과거에 비해 발달하였지만 관료들의 사고방식은 여전히 구시대에 머물러 있습니다. 이러한 괴릐는 우리 사회의 건전성에 심각한 악영향을 미치고 있습니다."
+  KOR_corrupt_government_idea:0 "비효율적인 관료제"
+  KOR_corrupt_government_idea_desc:0 "경제는 과거에 비해 발달하였지만 우리의 행정체계는 이를 따라가지 못하고 있습니다. 행정업무를 위한 복잡한 절차와 이에 필요한 수많은 서류, 누락된 호구와 통계와 괴리가 큰 세수 등이 이를 증명하고 있습니다. 비효율적인 관료제를 해결하기 위해선 개혁이 필요할 것입니다."
   KOR_legacy_of_old_era_idea:0 "구시대의 유산"
   KOR_legacy_of_old_era_idea_desc:0 "시대에 뒤쳐진 전통들이 아직도 한국사회에서 힘을 가지고 있습니다. 하지만 젊은이들은 서구적 삶을 동경하며, 부녀자들은 자신들의 권리가 신장되기를 원하고 있습니다. 이러한 갈등은 우리 사회의 통합을 저해하고 있습니다."
   KOR_broken_economy_idea:0 "낙후된 경제"
@@ -31,10 +35,10 @@
   KOR_influence_of_chaebol_idea_desc:0 "지난 십수년간 한국의 경제는 재벌의 투자를 통해 성장해 왔습니다. 하지만 재벌 중심의 경제로 인하여 국가 전체의 부가 소수의 재벌에게 쏠리고 성장이 정체는 되는 현상이 나타나고 있습니다."
   KOR_influence_of_russia_idea:0 "러시아의 영향력"
   KOR_influence_of_russia_idea_desc:0 "러일전쟁 이후, 러시아는 우리나라에 고문관을 파견하여 우리의 내정에 간섭하고 있습니다. 러시아의 도움이 경제 발전과 육군 근대화에 도움을 주는 것은 사실이지만, 장점만 있는 것은 아닐 것입니다."
-  KOR_less_advanced_army_idea:0 "후진적 군대"
-  KOR_less_advanced_army_idea_desc:0 "대한제국군은 그 규모에 비해 질적으로 매우 부족합니다. 장교들은 이를 고쳐나가고자 하지만, 제국의 예산은 부패로 인하여 항상 부족합니다. 이로 인해 병사들의 대우와 무기의 질은 매우 열악합니다."
+  KOR_less_advanced_army_idea:0 "미숙한 군대"
+  KOR_less_advanced_army_idea_desc:0 "대한제국군은 그 규모에 비해 질적으로 매우 부족합니다. 대부분의 장교들은 대전쟁을 경험해 본 적이 없고, 소수의 경험있는 장교들은 이를 고쳐나가고자 하지만, 제국의 예산은 부패로 인하여 항상 부족합니다. 이로 인해 병사들의 대우와 무기의 질은 매우 열악합니다."
   KOR_the_unsan_gold_mine_idea:0 "운산 금광"
-  KOR_the_unsan_gold_mine_idea_desc:0 "운산금광의 금은 우리 경제에 도움을 주고 있습니다. 아직 더 나올 금이 있을까요?"
+  KOR_the_unsan_gold_mine_idea_desc:0 "운산금광의 금은 우리 경제에 도움을 주고 있습니다. 추가적인 개발을 검토할 수 있을 것입니다."
  
  
  
