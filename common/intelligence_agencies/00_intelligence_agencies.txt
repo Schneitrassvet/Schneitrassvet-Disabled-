@@ -1,7 +1,7 @@
 intelligence_agency = {
 
     picture = GFX_intelligence_agency_logo_kor
-    names = { "제국익문사" }
+    names = { "Imperial Press" }
     
     default = { tag = KOR }
     available = { original_tag = KOR }
