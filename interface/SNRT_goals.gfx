@@ -1,0 +1,95 @@
+spriteTypes = {
+
+### Korea ###
+	SpriteType = {
+		name = "GFX_focus_korea_politic"
+		texturefile = "gfx/interface/goals/Focus_korea_politic.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_sinhan_Moderate"
+		texturefile = "gfx/interface/goals/Focus_sinhan_Moderate.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_sinhan_Radical"
+		texturefile = "gfx/interface/goals/Focus_sinhan_Radical.dds"
+	}
+	SpriteType = {
+		name = "GFX_kor_investigate_focus"
+		texturefile = "gfx/interface/goals/kor_investigate_focus.dds"
+	}
+	SpriteType = {
+		name = "GFX_remove_priv_org"
+		texturefile = "gfx/interface/goals/remove_priv_org.dds"
+	}
+	SpriteType = {
+		name = "GFX_kor_political_reorganization"
+		texturefile = "gfx/interface/goals/kor_political_reorganization.dds"
+	}
+	SpriteType = {
+		name = "GFX_Womens_suffrage_Appointment"
+		texturefile = "gfx/interface/goals/Womens_suffrage_Appointment.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_budget_adjustment"
+		texturefile = "gfx/interface/goals/Focus_budget_adjustment.dds"
+	}
+	SpriteType = {
+		name = "GFX_Antitrust_act"
+		texturefile = "gfx/interface/goals/Antitrust_act.dds"
+	}
+	SpriteType = {
+		name = "GFX_Fight_corruption"
+		texturefile = "gfx/interface/goals/Fight_corruption.dds"
+	}
+	SpriteType = {
+		name = "GFX_Defensive democracy"
+		texturefile = "gfx/interface/goals/Defensive democracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_remove_bumseok"
+		texturefile = "gfx/interface/goals/remove_bumseok.dds"
+	}
+	SpriteType = {
+		name = "GFX_Womens_suffrage_implementation"
+		texturefile = "gfx/interface/goals/Womens_suffrage_implementation.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_budget_reduction"
+		texturefile = "gfx/interface/goals/focus_budget_reduction.dds"
+	}
+	SpriteType = {
+		name = "GFX_kor_Bureaucracy"
+		texturefile = "gfx/interface/goals/kor_Bureaucracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_kor_constitutional_amendment"
+		texturefile = "gfx/interface/goals/kor_constitutional_amendment.dds"
+	}
+	SpriteType = {
+		name = "GFX_enormous_arrest"
+		texturefile = "gfx/interface/goals/enormous_arrest.dds"
+	}
+	SpriteType = {
+		name = "GFX_end_of_Depression"
+		texturefile = "gfx/interface/goals/end_of_Depression.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Nationalize_railroad"
+		texturefile = "gfx/interface/goals/Focus_Nationalize_railroad.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_laborer"
+		texturefile = "gfx/interface/goals/Focus_laborer.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_mil_Factory"
+		texturefile = "gfx/interface/goals/Focus_mil_Factory.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Five_years_gyeonggi"
+		texturefile = "gfx/interface/goals/Focus_Five_years_gyeonggi.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Gwanseo_develop_plan"
+		texturefile = "gfx/interface/goals/Focus_Gwanseo_develop_plan.dds"
+	}
