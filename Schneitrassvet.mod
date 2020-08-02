@@ -32,6 +32,7 @@ replace_path="common/scripted_guis"
 replace_path="common/scripted_localisation"
 replace_path="common/scripted_triggers"
 replace_path="events"
+replace_path="history/country"
 supported_version="1.9.3"
 path="mod/Schneitrassvet"
 dependencies = {"Korean Language (Europa)"}
