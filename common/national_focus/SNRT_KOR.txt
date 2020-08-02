@@ -49,7 +49,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = 탁지부의 경제보고서
+		id = report_of_takji
 		icon = GFX_focus_hol_the_foundations_of_defense
 		cost = 10.00
 		x = 43
@@ -225,7 +225,7 @@ focus_tree = {
 		cost = 10.00
 		x = 2
 		y = 4
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -234,7 +234,7 @@ focus_tree = {
 		cost = 10.00
 		x = -2
 		y = 4
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -243,7 +243,7 @@ focus_tree = {
 		cost = 10.00
 		x = 0
 		y = 4
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -275,11 +275,11 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = 탁지부의 경제보고서
+			focus = report_of_takji
 		}
 		x = 0
 		y = 1
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -291,7 +291,7 @@ focus_tree = {
 		}
 		x = -1
 		y = 2
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -303,7 +303,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 2
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -316,7 +316,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 3
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -341,7 +341,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 3
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -401,7 +401,7 @@ focus_tree = {
 		}
 		x = 4
 		y = 2
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -413,7 +413,7 @@ focus_tree = {
 		}
 		x = 4
 		y = 3
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -425,7 +425,7 @@ focus_tree = {
 		}
 		x = 4
 		y = 4
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -437,7 +437,7 @@ focus_tree = {
 		}
 		x = 4
 		y = 5
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -959,7 +959,7 @@ focus_tree = {
 		}
 		x = -4
 		y = 2
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -983,7 +983,7 @@ focus_tree = {
 		}
 		x = -4
 		y = 3
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -995,7 +995,7 @@ focus_tree = {
 		}
 		x = -4
 		y = 4
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -1135,7 +1135,7 @@ focus_tree = {
 		}
 		x = -4
 		y = 5
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -1150,7 +1150,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = KOR__Military Industry_growth
+		id = KOR_Military_Industry_growth
 		icon = GFX_Focus_mil_Factory
 		cost = 10.00
 		prerequisite = {
@@ -1185,7 +1185,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 3
-		relative_position_id = 탁지부의 경제보고서
+		relative_position_id = report_of_takji
 
 	}
 	focus = {
@@ -1217,8 +1217,8 @@ focus_tree = {
 		icon = GFX_end_of_Depression
 		cost = 10.00
 		prerequisite = {
-			focus = KOR_Defensive_democracy
 			focus = KOR_liberal_society
+			focus = KOR_Defensive_democracy
 		}
 		prerequisite = {
 			focus = KOR_railways_buying

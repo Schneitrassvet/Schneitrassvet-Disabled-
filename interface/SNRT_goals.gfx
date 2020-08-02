@@ -3,7 +3,7 @@ spriteTypes = {
 ### Korea ###
 	SpriteType = {
 		name = "GFX_focus_korea_politic"
-		texturefile = "gfx/interface/goals/Focus_korea_politic.dds"
+		texturefile = "gfx/interface/goals/focus_korea_politic.dds"
 	}
 	SpriteType = {
 		name = "GFX_Focus_sinhan_Moderate"
@@ -92,4 +92,16 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Focus_Gwanseo_develop_plan"
 		texturefile = "gfx/interface/goals/Focus_Gwanseo_develop_plan.dds"
+	}
+	SpriteType = {
+		name = "GFX_Nationalize_companies"
+		texturefile = "gfx/interface/goals/Nationalize_companies.dds"
+	}
+	SpriteType = {
+		name = "GFX_end_of_totalist"
+		texturefile = "gfx/interface/goals/end_of_totalist.dds"
+	}
+	SpriteType = {
+		name = "GFX_Defensive democracy"
+		texturefile = "gfx/interface/goals/Defensive democracy.dds"
 	}
