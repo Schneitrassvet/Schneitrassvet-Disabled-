@@ -1,0 +1,1254 @@
+focus_tree = {
+	id = SNRT_KOR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOR
+		}
+	}
+	default = no
+	focus = {
+		id = KOR_politics_start
+		icon = GFX_focus_korea_politic
+		cost = 10.00
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = KOR_imperial_reformist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = KOR_yurim
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 23
+		y = 1
+
+	}
+	focus = {
+		id = KOR_totalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 6
+		y = 10
+
+	}
+	focus = {
+		id = KOR_army_start
+		icon = GFX_focus_secret_rearmament
+		cost = 10.00
+		x = 60
+		y = 0
+
+	}
+	focus = {
+		id = 탁지부의 경제보고서
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 10.00
+		x = 43
+		y = 0
+
+	}
+	focus = {
+		id = KOR_develop_mine
+		text = 북부 광산 개발
+		icon = GFX_focus_generic_steel
+		cost = 10.00
+		x = 48
+		y = 7
+
+	}
+	focus = {
+		id = KOR_gwanseo_mil_factory
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		x = 46
+		y = 6
+
+	}
+	focus = {
+		id = KOR_elite_army
+		icon = GFX_focus_chi_army_reform
+		cost = 10.00
+		x = -6
+		y = 4
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_tank_production
+		icon = GFX_focus_generic_tank_production
+		cost = 10.00
+		x = -5
+		y = 3
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_shipyard
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		x = 44
+		y = 6
+
+	}
+	focus = {
+		id = KOR_gwanseo_heavy_ind
+		icon = GFX_focus_generic_industry_3
+		cost = 10.00
+		x = 48
+		y = 6
+
+	}
+	focus = {
+		id = KOR_more_resource
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		x = 46
+		y = 7
+
+	}
+	focus = {
+		id = KOR_scepter
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = KOR_hanin_agree
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 14
+		y = 11
+
+	}
+	focus = {
+		id = KOR_free_expression
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 12
+		y = 11
+
+	}
+	focus = {
+		id = KOR_social_safety_net
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 10
+		y = 12
+
+	}
+	focus = {
+		id = KOR_flowering_culture
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 8
+		y = 11
+
+	}
+	focus = {
+		id = KOR_Successful_con_monarchy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 8
+		y = 10
+
+	}
+	focus = {
+		id = KOR_Moderate_acceptance
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 14
+		y = 10
+
+	}
+	focus = {
+		id = KOREfficient_industry
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 10
+		y = 11
+
+	}
+	focus = {
+		id = KOR_Exhibition economy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 8
+		y = 12
+
+	}
+	focus = {
+		id = KOR_prepare_air_strike
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 12
+		y = 10
+
+	}
+	focus = {
+		id = KOR_forfeiture_of_capital
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 10
+		y = 10
+
+	}
+	focus = {
+		id = KOR_Pohang_Steel
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		x = 44
+		y = 7
+
+	}
+	focus = {
+		id = KOR_light_industry
+		icon = GFX_focus_generic_industry_1
+		cost = 10.00
+		x = 42
+		y = 6
+
+	}
+	focus = {
+		id = KOR_kwanbuk_resource
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		x = 2
+		y = 4
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_Hoseo_plan
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		x = -2
+		y = 4
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_Haeseo_plan
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		x = 0
+		y = 4
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_Diplomat
+		icon = GFX_focus_jap_cast_the_die
+		cost = 10.00
+		x = 39
+		y = 7
+
+	}
+	focus = {
+		id = KOR_Hakbu_expansion
+		icon = GFX_focus_research
+		cost = 10.00
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = KOR_public_edu_exp
+		icon = GFX_focus_research2
+		cost = 10.00
+		x = 32
+		y = 4
+
+	}
+	focus = {
+		id = KOR_economic_problem
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = 탁지부의 경제보고서
+		}
+		x = 0
+		y = 1
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_Gyeonggi_Five_year
+		icon = GFX_Focus_Five_years_gyeonggi
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_economic_problem
+		}
+		x = -1
+		y = 2
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_gwanseo_plan
+		icon = GFX_Focus_Gwanseo_develop_plan
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_economic_problem
+		}
+		x = 1
+		y = 2
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_yeongnam_economy
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Gyeonggi_Five_year
+			focus = KOR_gwanseo_plan
+		}
+		x = 0
+		y = 3
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_defence
+		icon = GFX_goal_generic_defence
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_army_start
+		}
+		x = 2
+		y = 1
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_economy_honam
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_gwanseo_plan
+			focus = KOR_Gyeonggi_Five_year
+		}
+		x = 2
+		y = 3
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_Gando_claim
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Diplomat
+		}
+		x = 3
+		y = 1
+		relative_position_id = KOR_Diplomat
+
+	}
+	focus = {
+		id = KOR_Pusan_defence
+		icon = GFX_focus_generic_coastal_fort
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_defence
+		}
+		x = 3
+		y = 2
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_Gando_Administrator
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Gando_claim
+		}
+		x = 3
+		y = 2
+		relative_position_id = KOR_Diplomat
+
+	}
+	focus = {
+		id = KOR_Gando_border
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Gando_Administrator
+		}
+		x = 3
+		y = 3
+		relative_position_id = KOR_Diplomat
+
+	}
+	focus = {
+		id = KOR_Train
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_economic_problem
+		}
+		x = 4
+		y = 2
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_north_rail
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Train
+		}
+		x = 4
+		y = 3
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_south_rail
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_north_rail
+		}
+		x = 4
+		y = 4
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_Improve_transport
+		icon = GFX_goal_generic_army_motorized
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_south_rail
+		}
+		x = 4
+		y = 5
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_Grand_strategy
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_army_start
+		}
+		x = 6
+		y = 1
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_WWI_Lesson
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Grand_strategy
+		}
+		x = 5
+		y = 2
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_sinhan_moderate
+		icon = GFX_Focus_sinhan_Moderate
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_politics_start
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = KOR_investigation
+		icon = GFX_kor_investigate_focus
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_sinhan_moderate
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = KOR_break_army_private
+		icon = GFX_remove_priv_org
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_investigation
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = KOR_Political_reorg
+		icon = GFX_kor_political_reorganization
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_investigation
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = KOR_womans_suffrage
+		icon = GFX_Womens_suffrage_Appointment
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Political_reorg
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = KOR_review_unnec_budget
+		icon = GFX_Focus_budget_adjustment
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Political_reorg
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = KOR_Anti_trust
+		icon = GFX_Antitrust_act
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Political_reorg
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = KOR_Ousting_corrupt_officials
+		icon = GFX_Fight_corruption
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Anti_trust
+		}
+		prerequisite = {
+			focus = KOR_review_unnec_budget
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = KOR_Defensive_democracy
+		icon = GFX_Defensive democracy
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Ousting_corrupt_officials
+		}
+		prerequisite = {
+			focus = KOR_womans_suffrage
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = KOR_mil_engineer
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Grand_strategy
+		}
+		x = 7
+		y = 2
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_hard_training
+		icon = GFX_focus_prc_infiltration
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_WWI_Lesson
+			focus = KOR_mil_engineer
+		}
+		x = 7
+		y = 3
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_Ready_to_War
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_hard_training
+		}
+		x = 6
+		y = 4
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_Numerous_manpower
+		icon = GFX_goal_rhineland
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_army_start
+		}
+		x = 10
+		y = 1
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_local_maintenence
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Numerous_manpower
+		}
+		x = 9
+		y = 2
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_milita
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Numerous_manpower
+		}
+		x = 11
+		y = 2
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_promote_nationalism
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_local_maintenence
+			focus = KOR_milita
+		}
+		x = 9
+		y = 3
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_sinhan
+		icon = GFX_Focus_sinhan_Radical
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_politics_start
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = KOR_labor_law
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_sinhan_moderate
+			focus = KOR_sinhan
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = KOR_woman_work
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_milita
+			focus = KOR_local_maintenence
+		}
+		x = 11
+		y = 3
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_Enormous_army
+		icon = GFX_focus_chi_army_reform
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_promote_nationalism
+		}
+		prerequisite = {
+			focus = KOR_woman_work
+		}
+		x = 10
+		y = 4
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_5years_plan
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_labor_law
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = KOR_Fostering_workers
+		icon = GFX_Focus_laborer
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_5years_plan
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = KOR_civil_ind
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_5years_plan
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = KOR_county_edu
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Fostering_workers
+			focus = KOR_civil_ind
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = KOR_arrest
+		icon = GFX_enormous_arrest
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_sinhan
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = KOR_political_rev
+		icon = GFX_kor_constitutional_amendment
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_arrest
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = KOR_nationalize
+		icon = GFX_Nationalize_companies
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_political_rev
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = KOR_budget_reduction
+		icon = GFX_focus_budget_reduction
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_political_rev
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = KOR_Bureaucracy_reform
+		icon = GFX_kor_Bureaucracy
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_nationalize
+		}
+		prerequisite = {
+			focus = KOR_budget_reduction
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = KOR_womans_right
+		icon = GFX_Womens_suffrage_implementation
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_political_rev
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = KOR_liberal_society
+		icon = GFX_freedom_society
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_womans_right
+		}
+		prerequisite = {
+			focus = KOR_Bureaucracy_reform
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = KOR_kill_bumseok
+		icon = GFX_remove_bumseok
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_arrest
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = KOR_fate_of_radicals
+		icon = GFX_end_of_totalist
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_kill_bumseok
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = KOR_est_invest_agency
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_imperial_reformist
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = KOR_keep_royal_authority
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_est_invest_agency
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = kor_reduce_corp_regulations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_keep_royal_authority
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = kor_budget_exp
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_keep_royal_authority
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = Kor_bureaucracy_improve
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = kor_reduce_corp_regulations
+		}
+		prerequisite = {
+			focus = kor_budget_exp
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = KOR_female_worker
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_keep_royal_authority
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = KOR_stable_society
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Kor_bureaucracy_improve
+		}
+		prerequisite = {
+			focus = KOR_female_worker
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = KOR_persuade_totalist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_est_invest_agency
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = KOR_Unsan_expansion
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_economic_problem
+		}
+		x = -4
+		y = 2
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_reform_army
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_army_start
+		}
+		x = -2
+		y = 1
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_Unsan_expansion2
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Unsan_expansion
+		}
+		x = -4
+		y = 3
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_Unsan_Hurray
+		icon = GFX_focus_mex_privatisation
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Unsan_expansion2
+		}
+		x = -4
+		y = 4
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_Army_remove_corruption
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_reform_army
+		}
+		x = -3
+		y = 2
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_equip_improved
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_reform_army
+		}
+		x = -1
+		y = 2
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_Army_training
+		icon = GFX_goal_continuous_reduce_training_time
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Army_remove_corruption
+		}
+		prerequisite = {
+			focus = KOR_equip_improved
+		}
+		x = -2
+		y = 3
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_academy_expansion
+		icon = GFX_Focus_Sinheung
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Army_training
+		}
+		x = -2
+		y = 4
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_special_force
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_recruit_propaganda
+		}
+		x = 2
+		y = 4
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_Superior_Firepower
+		icon = GFX_goal_generic_army_artillery
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_army_start
+		}
+		x = -6
+		y = 1
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_Artillery_improve
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Superior_Firepower
+		}
+		x = -7
+		y = 2
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_artillery_production
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Superior_Firepower
+		}
+		x = -5
+		y = 2
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_motorized
+		icon = GFX_goal_generic_army_motorized
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Artillery_improve
+			focus = KOR_Artillery_improve
+			focus = KOR_artillery_production
+		}
+		x = -7
+		y = 3
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_recruit_propaganda
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = kor_Amnok_line
+		}
+		prerequisite = {
+			focus = KOR_Pusan_defence
+		}
+		x = 2
+		y = 3
+		relative_position_id = KOR_army_start
+
+	}
+	focus = {
+		id = KOR_central_bank
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Unsan_Hurray
+		}
+		x = -4
+		y = 5
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_totalist_placate
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_break_army_private
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = KOR__Military Industry_growth
+		icon = GFX_Focus_mil_Factory
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_civil_ind
+			focus = KOR_Fostering_workers
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = KOR_railways_buying
+		icon = GFX_Focus_Nationalize_railroad
+		cost = 10.00
+		prerequisite = {
+			focus = KOR__Military Industry_growth
+		}
+		prerequisite = {
+			focus = KOR_county_edu
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = KOR_kwandong_develop
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Gyeonggi_Five_year
+			focus = KOR_gwanseo_plan
+		}
+		x = -2
+		y = 3
+		relative_position_id = 탁지부의 경제보고서
+
+	}
+	focus = {
+		id = KOR_California_dip
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Diplomat
+		}
+		x = -3
+		y = 1
+		relative_position_id = KOR_Diplomat
+
+	}
+	focus = {
+		id = KOR_Japan_dip
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Diplomat
+		}
+		x = 0
+		y = 1
+		relative_position_id = KOR_Diplomat
+
+	}
+	focus = {
+		id = KOR_end_of_Depression
+		icon = GFX_end_of_Depression
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Defensive_democracy
+			focus = KOR_liberal_society
+		}
+		prerequisite = {
+			focus = KOR_railways_buying
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = Kor_german_diplomacy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_Diplomat
+		}
+		x = -6
+		y = 1
+		relative_position_id = KOR_Diplomat
+
+	}
+	focus = {
+		id = kor_Amnok_line
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = KOR_defence
+		}
+		x = 1
+		y = 2
+		relative_position_id = KOR_army_start
+
+	}
+}
