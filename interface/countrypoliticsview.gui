@@ -195,90 +195,7 @@ guiTypes = {
 		
 		
 		
-		containerWindowType = {
-			name = "autonomy_progress_view"
-			position = { x = 3 y = 375 }
-			size = { width = 255 height = 60 }
-			clipping = no
-
-			background = {
-				name = "Background"		
-				quadTextureSprite ="GFX_subject_overlay"
-			}
-			
-			instantTextboxType = {
-				name = "current_autonomy_name"
-				position = { x = 95 y = 8 }
-				font = "hoi_18mbs"
-				text = "autonomy"
-				maxWidth = 193
-				maxHeight = 20		
-				format = center
-			}
-			
-			buttonType = {
-				name = "prev_autonomy_level"
-				position = { x = 60 y = 9 }
-				quadTextureSprite = "GFX_autonomy_level_button"
-			}
-			
-			iconType = {
-				name = "prev_level_glow"
-				position = { x = 48 y = 2 }
-				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
-				alwaystransparent = yes				
-				scale = 0.5
-			}
-			
-			iconType = {
-				name = "prev_autonomy_level_icon"
-				position = { x = 60 y = 9 }
-				quadTextureSprite = "GFX_autonomy_unknown_icon"
-				alwaystransparent = yes
-			}
-			
-			iconType = {
-				name = "autonomy_progress"
-				spriteType = "GFX_subject_progressbar_long"
-				position = { x = 101 y = 29 }
-				frame = 100
-			}
-			
-			buttonType = {
-				name = "next_autonomy_level"
-				position = { x = 284 y = 5 }
-				quadTextureSprite = "GFX_occupation_policy_button_selected"
-			}
-			
-			iconType = {
-				name = "next_level_glow"
-				position = { x = 272 y = -2 }
-				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
-				alwaystransparent = yes				
-				scale = 0.5
-			}
-			
-			iconType = {
-				name = "next_autonomy_level_icon"
-				position = { x = 289 y = 9 }
-				quadTextureSprite = "GFX_autonomy_unknown_icon"
-				alwaystransparent = yes
-			}
-
-			iconType = {
-				name = "continuous_glow"
-				position = { x = 6 y = 2 }
-				quadTextureSprite = "GFX_ongoing_generic_glow_yellow"
-				alwaystransparent = yes				
-				scale = 0.4
-			}
-			
-			iconType = {
-				name = "current_autonomy_level_icon"
-				position = { x = 15 y = 10 }
-				quadTextureSprite = "GFX_autonomy_unknown_icon"
-			}
-		}
+		
 			
 		containerWindowType = {
 			name = "active_goal"
@@ -384,6 +301,7 @@ guiTypes = {
 				alwaystransparent = yes
 			}			
 		}
+		
 		containerWindowType = {
 			name = "national_spirit"
 			position = { x = 81 y = 153 }
@@ -429,6 +347,92 @@ guiTypes = {
 				}
 			}
 		}
+		
+		containerWindowType = {
+			name = "autonomy_progress_view"
+			position = { x = 170 y = 245 }
+			size = { width = 255 height = 60 }
+			clipping = no
+
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_subject_overlay"
+			}
+			
+			instantTextboxType = {
+				name = "current_autonomy_name"
+				position = { x = 110 y = 8 }
+				font = "hoi_18mbs"
+				text = "autonomy"
+				maxWidth = 193
+				maxHeight = 20		
+				format = center
+			}
+			
+			buttonType = {
+				name = "prev_autonomy_level"
+				position = { x = 74 y = 9 }
+				quadTextureSprite = "GFX_autonomy_level_button"
+			}
+			
+			iconType = {
+				name = "prev_level_glow"
+				position = { x = 62 y = 2 }
+				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
+				alwaystransparent = yes				
+				scale = 0.5
+			}
+			
+			iconType = {
+				name = "prev_autonomy_level_icon"
+				position = { x = 74 y = 9 }
+				quadTextureSprite = "GFX_autonomy_unknown_icon"
+				alwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "autonomy_progress"
+				spriteType = "GFX_subject_progressbar_long"
+				position = { x = 115 y = 29 }
+				frame = 100
+			}
+			
+			buttonType = {
+				name = "next_autonomy_level"
+				position = { x = 298 y = 5 }
+				quadTextureSprite = "GFX_occupation_policy_button_selected"
+			}
+			
+			iconType = {
+				name = "next_level_glow"
+				position = { x = 286 y = -2 }
+				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
+				alwaystransparent = yes				
+				scale = 0.5
+			}
+			
+			iconType = {
+				name = "next_autonomy_level_icon"
+				position = { x = 303 y = 9 }
+				quadTextureSprite = "GFX_autonomy_unknown_icon"
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "continuous_glow"
+				position = { x = 11 y = 2 }
+				quadTextureSprite = "GFX_ongoing_generic_glow_yellow"
+				alwaystransparent = yes				
+				scale = 0.4
+			}
+			
+			iconType = {
+				name = "current_autonomy_level_icon"
+				position = { x = 21 y = 10 }
+				quadTextureSprite = "GFX_autonomy_unknown_icon"
+			}
+		}
+		
 		iconType = {
 			name = "leader"
 			position = { x = 18 y = 58 }
