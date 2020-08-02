@@ -32,7 +32,7 @@ add_ideas = {
 }
 
 set_popularities = {
-	national_socialism = 1
+	state_socialism = 1
 	anarchism = 1
 	revolutionary_socialism = 2
 	radical_socialism = 18
