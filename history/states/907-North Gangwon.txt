@@ -3,17 +3,17 @@ state={
 	name="STATE_907"
 
 	history={
-		owner = KOR
+		owner = FNG
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = KOR
+		add_core_of = FNG
 
 	}
 
 	provinces={
-		4004 9981 11958 
+		6837
 	}
 	manpower=101000
 	buildings_max_level_factor=1.000
