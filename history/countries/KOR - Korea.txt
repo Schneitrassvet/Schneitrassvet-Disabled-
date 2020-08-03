@@ -25,10 +25,10 @@ add_ideas = {
 	KOR_corrupt_government_idea
 	KOR_legacy_of_old_era_idea
 	KOR_broken_economy_idea
-	KOR_influence_of_chaebol_idea
-	KOR_influence_of_russia_idea
 	KOR_less_advanced_army_idea
 	KOR_the_unsan_gold_mine_idea
+	KOR_Pacific_Sphere_idea
+	KOR_Japanese_economic_encroachment_idea
 }
 
 set_popularities = {

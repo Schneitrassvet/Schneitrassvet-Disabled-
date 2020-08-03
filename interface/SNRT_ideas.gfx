@@ -40,10 +40,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/national_spirits/KOR/KOR_unsan_mine.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_KOR_russia_sphere"
-		texturefile = "gfx/interface/ideas/national_spirits/KOR/russia_sphere.dds"
+		name = "GFX_idea_KOR_Pacific_Sphere"
+		texturefile = "gfx/interface/ideas/national_spirits/KOR/Pacific_sphere.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_legacy_of_old_era"
+		texturefile = "gfx/interface/ideas/national_spirits/KOR/Old_fashioned_tradition.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Japanese_Economic_encroachment"
+		texturefile = "gfx/interface/ideas/national_spirits/KOR/Japanese_Economic_encroachment.dds"
+	}	
+
 	### PER ###
 	
 	spriteType = {
