@@ -45,7 +45,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Wu Yi"
+	name = "Yi Wu"
 	desc = "POLITICS_WU_YI_DESC"
 	picture = "gfx/leaders/KOR/Portrait_Wu_Yi.dds"
 	expire = "1965.1.1"

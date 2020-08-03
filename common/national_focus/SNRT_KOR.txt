@@ -110,7 +110,7 @@ focus_tree = {
 	}
 	focus = {
 		id = KOR_Defensive_democracy
-		icon = GFX_Defensive democracy
+		icon = GFX_Defensive_democracy
 		cost = 10.00
 		prerequisite = {
 			focus = KOR_Ousting_corrupt_officials
@@ -213,7 +213,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = KOR_nationalize
+		id = KOR_nationalize_companies
 		icon = GFX_Nationalize_companies
 		cost = 10.00
 		prerequisite = {
@@ -319,7 +319,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = KOR_railways_buying
+		id = KOR_railways_buy
 		icon = GFX_Focus_Nationalize_railroad
 		cost = 10.00
 		prerequisite = {
@@ -341,7 +341,7 @@ focus_tree = {
 			focus = KOR_Defensive_democracy
 		}
 		prerequisite = {
-			focus = KOR_railways_buying
+			focus = KOR_railways_buy
 		}
 		x = 10
 		y = 8

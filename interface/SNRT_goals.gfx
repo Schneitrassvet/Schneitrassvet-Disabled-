@@ -86,14 +86,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/Focus_mil_Factory.dds"
 	}
 	SpriteType = {
-		name = "GFX_Focus_Five_years_gyeonggi"
-		texturefile = "gfx/interface/goals/Focus_Five_years_gyeonggi.dds"
-	}
-	SpriteType = {
-		name = "GFX_Focus_Gwanseo_develop_plan"
-		texturefile = "gfx/interface/goals/Focus_Gwanseo_develop_plan.dds"
-	}
-	SpriteType = {
 		name = "GFX_Nationalize_companies"
 		texturefile = "gfx/interface/goals/Nationalize_companies.dds"
 	}
@@ -102,6 +94,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/end_of_totalist.dds"
 	}
 	SpriteType = {
-		name = "GFX_Defensive democracy"
-		texturefile = "gfx/interface/goals/Defensive democracy.dds"
+		name = "GFX_Defensive_democracy"
+		texturefile = "gfx/interface/goals/Defensive_democracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_freedom_society"
+		texturefile = "gfx/interface/goals/freedom_society.dds"
 	}
