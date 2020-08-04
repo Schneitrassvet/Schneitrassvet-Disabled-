@@ -75,5 +75,5 @@ replace_path="portraits"
 dependencies={
 	"Korean Language (Europa)"
 }
-supported_version="1.9.*"
+supported_version="1.9.3"
 path="mod/Schneitrassvet"
