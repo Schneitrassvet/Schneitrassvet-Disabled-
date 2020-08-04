@@ -32,7 +32,6 @@ replace_path="common/scripted_guis"
 replace_path="common/scripted_localisation"
 replace_path="common/scripted_triggers"
 replace_path="events"
-<<<<<<< HEAD
 replace_path="gfx/loadingscreens"
 replace_path="gfx/flags"
 replace_path="gfx/fonts"
@@ -47,9 +46,3 @@ dependencies={
 }
 supported_version="1.9.3"
 path="mod/Schneitrassvet"
-=======
-replace_path="history/country"
-supported_version="1.9.3"
-path="mod/Schneitrassvet"
-dependencies = {"Korean Language (Europa)"}
->>>>>>> parent of 9bfa564... asdf

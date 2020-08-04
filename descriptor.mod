@@ -33,8 +33,4 @@ replace_path="common/scripted_triggers"
 replace_path="events"
 replace_path="history/country"
 name="Schneitrassvet"
-<<<<<<< HEAD
 supported_version="1.9.3"
-=======
-supported_version="1.9.1 beta"
->>>>>>> parent of 9bfa564... asdf
