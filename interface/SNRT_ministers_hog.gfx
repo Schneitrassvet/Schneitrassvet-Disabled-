@@ -31,18 +31,18 @@ spriteTypes = {
         name = "GFX_idea_JAP_MCMH_hog_stt"
         texturefile = "gfx//interface//ministers//JAP//JAP_MCMH_hog_stt.tga"
     }
-spriteType = {
-    name = "GFX_idea_JAP_Asanuma_Inejiro_hog_nso"
-    texturefile = "gfx\interface\ministers\JAP\JAP_Asanuma_Inejiro_hog_nso.tga"
-}
-spriteType = {
-    name = "GFX_idea_JAP_Fukumoto_Kazuo_hog_nso"
-    texturefile = "gfx\interface\ministers\JAP\JAP_Fukumoto_Kazuo_hog_nso.tga"
-}
-spriteType = {
-    name = "GFX_idea_JAP_Katayama_Sen_hog_nso"
-    texturefile = "gfx\interface\ministers\JAP\JAP_Katayama_Sen_hog_nso.tga"
-}
+	spriteType = {
+		name = "GFX_idea_JAP_Asanuma_Inejiro_hog_nso"
+		texturefile = "gfx\interface\ministers\JAP\JAP_Asanuma_Inejiro_hog_nso.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Fukumoto_Kazuo_hog_nso"
+		texturefile = "gfx\interface\ministers\JAP\JAP_Fukumoto_Kazuo_hog_nso.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Katayama_Sen_hog_nso"
+		texturefile = "gfx\interface\ministers\JAP\JAP_Katayama_Sen_hog_nso.tga"
+	}
 spriteType = {
     name = "GFX_idea_JAP_Kita_Ikki_hog_nso"
     texturefile = "gfx\interface\ministers\JAP\JAP_Kita_Ikki_hog_nso.tga"
@@ -99,9 +99,27 @@ spriteType = {
     name = "GFX_idea_JAP_Suzuki_Mosaburo_hog_lso"
     texturefile = "gfx\interface\ministers\JAP\JAP_Suzuki_Mosaburo_hog_lso.tga"
 }
-spriteType = {
-    name = "GFX_idea_JAP_Okawa_Shumei_hog_nso"
-    texturefile = "gfx\interface\ministers\JAP\JAP_Okawa_Shumei_hog_nso.tga"
-}
+	spriteType = {
+		name = "GFX_idea_JAP_Okawa_Shumei_hog_nso"
+		texturefile = "gfx\interface\ministers\JAP\JAP_Okawa_Shumei_hog_nso.tga"
+	}
+	
+	#KOR
+	spriteType = {
+		name = "GFX_idea_KOR_Minyeonghwan_minister"
+		texturefile = "gfx\interface\ministers\KOR\Minyeonghwan_minister.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_ParkJungyang_minister"
+		texturefile = "gfx\interface\ministers\KOR\ParkJungyang_minister.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_YiDong-nyeong_minister"
+		texturefile = "gfx\interface\ministers\KOR\YiDong-nyeong_minister.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_Yiwijong_minister"
+		texturefile = "gfx\interface\ministers\KOR\Yiwijong_minister.tga"
+	}
 
 }
