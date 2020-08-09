@@ -1,0 +1,18 @@
+state={
+	id=1142
+	name="STATE_1142"
+	provinces={
+		1698 1778 2028 4947 5057 5076 5100 7971 12327 12596 12776 12820 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+		history={
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}
