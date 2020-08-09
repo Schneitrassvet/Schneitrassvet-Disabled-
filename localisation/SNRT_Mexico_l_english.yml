@@ -1,0 +1,99 @@
+﻿l_english:
+
+ ### Parties ###
+
+  MEX_state_socialism_party:0 "CTM"
+  MEX_state_socialism_party_long:0 "멕시코노동자연합"
+  MEX_anarchism_party:0 "OUR"
+  MEX_anarchism_party_long:0 "혁명노동자연방"
+  MEX_revolutionary_socialism_party:0 "COM"
+  MEX_revolutionary_socialism_party_long:0 "세계노동자의 집"
+  MEX_radical_socialism_party:0 "국혁당(비야)"
+  MEX_radical_socialism_party_long:0 "국민혁명당 비야파"
+  MEX_social_liberal_party:0 "국혁당(헌)"
+  MEX_social_liberal_party_long:0 "국민혁명당 헌법파"
+  MEX_liberal_democracy_party:0 "GEBCA"
+  MEX_liberal_democracy_party_long:0 "GEBCA 멕시코 위원회"
+  MEX_conservatism_party:0 "진보당"
+  MEX_conservatism_party_long:0 "멕시코 진보당"
+  MEX_authoritarian_democracy_party:0 "국혁당(급)"
+  MEX_authoritarian_democracy_party_long:0 "국민혁명당 급진파"
+  MEX_despotism_party:0 "왕당파"
+  MEX_despotism_party_long:0 "왕당파"
+  MEX_state_totalism_party:0 "UNS"
+  MEX_state_totalism_party_long:0 "국민공동통치연합"
+
+
+ ### Ideas ###
+
+ 
+ ### Decisions ###
+  
+  
+  
+ ### Focuses ###
+ 
+  MEX_continue_the_revolution:0 "혁명 지속"
+  MEX_continue_the_revolution_desc:0 ""
+  
+  MEX_PNR_Villista:0 "국민혁명당 비야파"
+  MEX_PNR_Villista_desc:0 ""
+  MEX_nationalize_railways:0 "철도 국유화"
+  MEX_nationalize_resources:0 "자원 국유화"
+  MEX_companions_in_south_america:0 "남미의 동지들"
+  MEX_guarantee_compulsory_education:0 "의무교육 보장"
+  MEX_sweeping_land_reform:0 "전면적인 토지 개혁"
+  MEX_revolutionary_propaganda:0 "혁명 선전"
+  MEX_liberation_theology:0 "해방 신학"
+  MEX_farmers-workers_alliance:0 "농민-노동자 동맹"
+  MEX_unknown_focus1:0 "격리자 지원"
+  MEX_social_welfare_systems:0 "사회복지제도"
+  MEX_organize_rural_vigilance_committee:0 "농촌 자경단 조직"
+  MEX_hero_of_the_revolution:0 "혁명 영웅"
+  
+  MEX_PNR_Constitucionalista:0 "국민혁명당 헌법파"
+  MEX_guarantee_workers_rights:0 "노동자 인권 보장"
+  MEX_moderate_land_reform:0 "점진적인 토지 개혁"
+  MEX_expand_education_reform:0 "교육 개혁 확대"
+  MEX_renegotiate_with_america:0 "미국과의 재협상"
+  MEX_expand_trades:0 "무역 규모 확대"
+  MEX_kind_neighborhood:0 "좋은 이웃들"
+  MEX_expand_police_force:0 "경찰 규모 확장"
+  MEX_renew_relations_of_the_church:0 "교회와의 관계 회복"
+  MEX_corruption-free_democracy:0 "부패 없는 민주주의"
+  MEX_support_revolutionary_artists:0 "혁명적인 예술가 지원"
+  MEX_establish_democracy:0 "민주주의 정착"
+  
+  MEX_PNR_radicals:0 "국민혁명당 급진파"
+  MEX_expand_bureaucracy:0 "관료제 확대"
+  MEX_government-owned_trade_union:0 "정부 산하 노동조합"
+  MEX_redistribute_the_lands:0 "토지 국유화 및 재분배"
+  MEX_organize_secret_police:0 "비밀경찰 조직"
+  MEX_radical_education_reform:0 "급진적인 교육 개혁"
+  MEX_Calles_law:0 "카예스 법안"
+  MEX_crack_down_on_the_church:0 "교회 탄압"
+  MEX_loyal_citizens:0 "충성적인 시민들"
+  MEX_hunt_down_the_anti-revolutionary:0 "반혁명분자 색출"
+  MEX_worship:0 "무슨 숭배"
+  MEX_revolutionary_one-party_dictatorship:0 "혁명적인 일당독재"
+  MEX_supreme_leader_Calles:0 "최고지도자 카예스"
+  
+  MEX_complete_the_revolution:0 "혁명 완수"
+  
+ 
+
+ ### Events ###
+ 
+  
+
+
+  
+ ### Tooltips ###
+  
+  
+  
+ ### Flags ###
+  
+  
+ ### Focus Trees ###
+  

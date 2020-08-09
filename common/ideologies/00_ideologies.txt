@@ -171,7 +171,7 @@ ideologies = {
 		
 		dynamic_faction_names = {}
 		
-		color = { 112 163 23 }
+		color = { 222 144 0 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -212,7 +212,7 @@ ideologies = {
 		
 		dynamic_faction_names = {}
 		
-		color = { 255 203 18 }
+		color = { 112 163 23 }
 		
 		rules = {
 			can_create_collaboration_government = no

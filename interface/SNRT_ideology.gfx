@@ -9,15 +9,20 @@ spriteTypes = {
 		name = "GFX_ideology_conservatism_group"
 		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/despotism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_revolutionary_socialism_group"
+		texturefile = "gfx/interface/ideologies/revolutionary_socialism_group.dds"
+	}
 
 	spriteType = {
 		name = "GFX_ideology_liberal_socialism_group"
 		texturefile = "gfx/interface/ideologies/liberal_socialism_group.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_marxism_group"
-		texturefile = "gfx/interface/ideologies/marxism_group.dds"
 	}
 
 	spriteType = {

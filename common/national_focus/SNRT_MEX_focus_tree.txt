@@ -1,0 +1,643 @@
+focus_tree = {
+	id = MEX_focus
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = MEX
+		}
+	}
+	
+	continuous_focus_position = { x = 30, y = 4000 }
+	
+	default = no
+	
+	############
+	# Politics #
+	############
+	
+	## PNR ##
+	
+	focus = {
+		id = MEX_continue_the_revolution
+		icon = GFX_goal_generic_demand_territory
+		x = 10
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_PNR_Villista
+		icon = GFX_goal_generic_demand_territory
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_continue_the_revolution }
+		mutually_exclusive = { focus = MEX_PNR_radicals }
+		mutually_exclusive = { focus = MEX_PNR_Constitucionalista }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_nationalize_railways
+		icon = GFX_goal_generic_demand_territory
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_PNR_Villista }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_nationalize_resources
+		icon = GFX_goal_generic_demand_territory
+		x = 0
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_nationalize_railways }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_companions_in_south_america
+		icon = GFX_goal_generic_demand_territory
+		x = 1
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_nationalize_resources }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_guarantee_compulsory_education
+		icon = GFX_goal_generic_demand_territory
+		x = 2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_PNR_Villista }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_revolutionary_propaganda
+		icon = GFX_goal_generic_demand_territory
+		x = 1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_guarantee_compulsory_education }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_sweeping_land_reform
+		icon = GFX_goal_generic_demand_territory
+		x = 4
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_PNR_Villista }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_liberation_theology
+		icon = GFX_goal_generic_demand_territory
+		x = 3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_guarantee_compulsory_education }
+		prerequisite = { focus = MEX_sweeping_land_reform }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_farmers-workers_alliance
+		icon = GFX_goal_generic_demand_territory
+		x = 5
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_sweeping_land_reform }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_unknown_focus1
+		icon = GFX_goal_generic_demand_territory
+		x = 3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_farmers-workers_alliance }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_social_welfare_systems
+		icon = GFX_goal_generic_demand_territory
+		x = 3
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_unknown_focus1 }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_organize_rural_vigilance_committee
+		icon = GFX_goal_generic_demand_territory
+		x = 5
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_farmers-workers_alliance }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_hero_of_the_revolution
+		icon = GFX_goal_generic_demand_territory
+		x = 3
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_social_welfare_systems }
+		prerequisite = { focus = MEX_companions_in_south_america }
+		prerequisite = { focus = MEX_organize_rural_vigilance_committee }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_PNR_Constitucionalista
+		icon = GFX_goal_generic_demand_territory
+		x = 10
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_continue_the_revolution }
+		mutually_exclusive = { focus = MEX_PNR_radicals }
+		mutually_exclusive = { focus = MEX_PNR_Villista }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_guarantee_workers_rights
+		icon = GFX_goal_generic_demand_territory
+		x = 7
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_PNR_Constitucionalista }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_renegotiate_with_america
+		icon = GFX_goal_generic_demand_territory
+		x = 7
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_guarantee_workers_rights }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_kind_neighborhood
+		icon = GFX_goal_generic_demand_territory
+		x = 8
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_renegotiate_with_america }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_expand_trades
+		icon = GFX_goal_generic_demand_territory
+		x = 6
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_renegotiate_with_america }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_moderate_land_reform
+		icon = GFX_goal_generic_demand_territory
+		x = 10
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_PNR_Constitucionalista }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_expand_police_force
+		icon = GFX_goal_generic_demand_territory
+		x = 9
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_guarantee_workers_rights }
+		prerequisite = { focus = MEX_moderate_land_reform }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_renew_relations_of_the_church
+		icon = GFX_goal_generic_demand_territory
+		x = 10
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_moderate_land_reform }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_expand_education_reform
+		icon = GFX_goal_generic_demand_territory
+		x = 13
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_PNR_Constitucionalista }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_corruption-free_democracy
+		icon = GFX_goal_generic_demand_territory
+		x = 12
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_moderate_land_reform }
+		prerequisite = { focus = MEX_expand_education_reform }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_support_revolutionary_artists
+		icon = GFX_goal_generic_demand_territory
+		x = 13
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_expand_education_reform }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_establish_democracy
+		icon = GFX_goal_generic_demand_territory
+		x = 11
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_corruption-free_democracy }
+		prerequisite = { focus = MEX_renew_relations_of_the_church }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_PNR_radicals
+		icon = GFX_goal_generic_demand_territory
+		x = 18
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		mutually_exclusive = { focus = MEX_PNR_Constitucionalista }
+		mutually_exclusive = { focus = MEX_PNR_Villista }
+		prerequisite = { focus = MEX_continue_the_revolution }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_expand_bureaucracy
+		icon = GFX_goal_generic_demand_territory
+		x = 16
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_PNR_radicals }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_radical_education_reform
+		icon = GFX_goal_generic_demand_territory
+		x = 20
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_PNR_radicals }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_Calles_law
+		icon = GFX_goal_generic_demand_territory
+		x = 22
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_PNR_radicals }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_government-owned_trade_union
+		icon = GFX_goal_generic_demand_territory
+		x = 15
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_expand_bureaucracy }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_redistribute_the_lands
+		icon = GFX_goal_generic_demand_territory
+		x = 17
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_expand_bureaucracy }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_organize_secret_police
+		icon = GFX_goal_generic_demand_territory
+		x = 19
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_expand_bureaucracy }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_crack_down_on_the_church
+		icon = GFX_goal_generic_demand_territory
+		x = 22
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_Calles_law }
+		prerequisite = { focus = MEX_radical_education_reform }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_loyal_citizens
+		icon = GFX_goal_generic_demand_territory
+		x = 17
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_government-owned_trade_union }
+		prerequisite = { focus = MEX_redistribute_the_lands }
+		prerequisite = { focus = MEX_organize_secret_police }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_hunt_down_the_anti-revolutionary
+		icon = GFX_goal_generic_demand_territory
+		x = 21
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_crack_down_on_the_church }
+		prerequisite = { focus = MEX_organize_secret_police }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_worship
+		icon = GFX_goal_generic_demand_territory
+		x = 17
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_loyal_citizens }
+		prerequisite = { focus = MEX_hunt_down_the_anti-revolutionary }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_revolutionary_one-party_dictatorship
+		icon = GFX_goal_generic_demand_territory
+		x = 21
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_loyal_citizens }
+		prerequisite = { focus = MEX_hunt_down_the_anti-revolutionary }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_supreme_leader_Calles
+		icon = GFX_goal_generic_demand_territory
+		x = 19
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { focus = MEX_worship }
+		prerequisite = { focus = MEX_revolutionary_one-party_dictatorship }
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = MEX_complete_the_revolution
+		icon = GFX_goal_generic_demand_territory
+		x = 11
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		prerequisite = { 
+			focus = MEX_hero_of_the_revolution
+			focus = MEX_establish_democracy
+			focus = MEX_supreme_leader_Calles
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+}
