@@ -22,13 +22,7 @@ set_politics = {
 }
 
 add_ideas = {
-	KOR_corrupt_government_idea
-	KOR_legacy_of_old_era_idea
-	KOR_broken_economy_idea
-	KOR_less_advanced_army_idea
-	KOR_the_unsan_gold_mine_idea
-	KOR_Pacific_Sphere_idea
-	KOR_Japanese_economic_encroachment_idea
+
 }
 
 set_popularities = {
@@ -46,8 +40,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Aisin Gioro Puyi"
-	desc = "POLITICS_WU_YI_DESC"
-	picture = "gfx/leaders/KOR/Portrait_Wu_Yi.dds"
+	desc = "POLITICS_Puyi_DESC"
+	picture = "gfx/leaders/QNG/Portrait_Puyi.dds"
 	expire = "1965.1.1"
 	ideology = conservatism_subtype
 	traits = {
