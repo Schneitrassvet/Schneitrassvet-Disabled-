@@ -1,0 +1,50 @@
+﻿capital = 716
+
+oob = "QNG_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_stability = 0.60
+set_war_support = 0.60
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+
+}
+
+set_popularities = {
+	state_socialism = 1
+	anarchism = 1
+	revolutionary_socialism = 2
+	radical_socialism = 18
+	liberal_democracy = 17
+	conservatism = 18
+	social_liberal = 8
+	authoritarian_democracy = 11
+	despotism = 14
+	state_totalism = 10
+}
+
+create_country_leader = {
+	name = "Aisin Gioro Puyi"
+	desc = "POLITICS_Puyi_DESC"
+	picture = "gfx/leaders/QNG/Portrait_Puyi.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}
