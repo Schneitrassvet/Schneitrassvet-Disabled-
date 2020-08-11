@@ -723,8 +723,8 @@ TIB = {
 	color_ui = rgb { 241 193 48 }
 }
 SIK = {
-	color = rgb { 246 255 86 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 192 255 0 }
+	color_ui = rgb { 192 255 0 }
 }
 
 PRC = {
@@ -768,4 +768,8 @@ YUN = {
 SCH = {
 	color = rgb { 46 0 153 }
 	color_ui = rgb { 46 0 153 }
+}
+PRC = {
+	color = rgb { 0 255 0 }
+	color_ui = rgb { 0 255 0 }
 }
