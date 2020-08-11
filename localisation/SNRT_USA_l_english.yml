@@ -1,0 +1,7 @@
+﻿l_english:
+USA_william_borah_decision:0 "윌리엄 보라 위기"
+USA_william_borah_decision_desc:0 "윌리엄 보라는 너무 많은 죄를 지었습니다...\n하원에서 §R탄핵§!이 가결되고, 상원에서도 가결된다면, 윌리엄 보라는 §R탄핵§!될 것입니다!\n\n탄핵에 찬성하는 하원 의원 수 : §Y[?USA.USA_representatives]/435§!\n\n탄핵에 찬성하는 상원 의원 수 : §Y[?USA.USA_Senate]/96§!\n\n윌리엄 보라의 사임 의지 : §Y[?USA.USA_resignation]%§!\n\n"
+USA_william_borah_filibuster:0 "윌리엄 보라를 위한 필리버스터"
+USA_william_borah_filibuster_tt:0 "탄핵에 찬성하는 하원 의원수가 2명 줄어들 것입니다."
+USA_william_borah_support_request:0 "윌리엄 보라 지지 요청"
+USA_william_borah_support_request_tt:0 "40% 확률로 하원 지지 -3석, 상원 지지 -2석\n30% 확률로 하원 지지 +3석,상원 지지 +2석, 사임 의지 +5%\n30% 확률로 아무일도 일어나지 않음"

@@ -1,9 +1,9 @@
 ##############################
-# Korea Decisions Cathegory  #
+# USA Decisions Cathegory  #
 # by NIKA           		 #
 ##############################
-USA_influence_dominance_decision = {
-	picture = GFX_decision_cat_naval_blockade
+USA_william_borah_decision = {
+	picture = GFX_decision_cat_picture_government_in_exile
 	icon = GFX_decision_category_usa_congress
 
 	allowed = {

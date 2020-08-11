@@ -1,0 +1,48 @@
+add_namespace = USA_william_borah
+
+country_event = {
+	id = USA_william_borah.1
+	title = USA_william_borah.1.t
+	desc = USA_william_borah.1.d
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = {
+		name = USA_william_borah_option.1.a
+		add_to_variable = {
+			var = USA_representatives
+			value = 3
+		}
+		add_to_variable = {
+			var = USA_Senate
+			value = 2
+		}
+		add_to_variable = {
+			var = USA_resignation
+			value = 5
+		}
+		ai_chance = {
+			base = 3
+		}
+	}
+	option = {
+		name = USA_william_borah_option.1.b
+		subtract_from_variable = {
+			var = USA_representatives
+			value = 3
+		}
+		subtract_from_variable = {
+			var = USA_Senate
+			value = 2
+		}
+		ai_chance = {
+			base = 4
+		}
+	}
+	option = {
+		name = USA_william_borah_option.1.c
+		ai_chance = {
+			base = 3
+		}
+	}
+}

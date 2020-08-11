@@ -3,10 +3,10 @@ on_actions = {
 	on_startup = {
 		effect = {
 			USA = {
-				set_variable = { USA_governor = 10 }
-				set_variable = { USA_military = 10 }
-				set_variable = { USA_social = 10 }
-				set_variable = { USA_league = 10 }
+				set_country_flag = USA_william_borah_impeachment
+				set_variable = { USA_representatives = 197 } #미국 하원 탄핵 지지
+				set_variable = { USA_Senate = 35 } #미국 상원 탄핵 지지
+				set_variable = { USA_resignation = 52 } #사임 의지
 			}
 		}
 	}
