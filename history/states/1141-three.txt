@@ -4,6 +4,14 @@ state={
 	provinces={
 		1124 1154 4181 7055 9971 12015 
 	}
+		history={
+		owner = SDC
+		add_core_of = SDC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }
