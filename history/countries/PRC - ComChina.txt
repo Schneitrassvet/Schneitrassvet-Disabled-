@@ -25,9 +25,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	closed_economy
-	service_by_requirement
-	partial_economic_mobilisation
+	PRC_Sichuan_cold_war
+	PRC_Sichuan_Opium
+	PRC_Sichuan_millitas
+	PRC_Sichuan_break
 }
 
 add_opinion_modifier = { target = CHI modifier = hostile_status }
