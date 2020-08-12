@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = FNG
-		add_core_of = FNG
+		owner = QNG
+		add_core_of = QNG
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
