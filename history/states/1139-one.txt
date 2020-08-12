@@ -4,6 +4,14 @@ state={
 	provinces={
 		1474 7521 7549 7577 
 	}
+		history={
+		owner = SCH
+		add_core_of = SCH
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }
