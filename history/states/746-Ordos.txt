@@ -9,8 +9,9 @@ state={
 	
 	history=
 	{
-		owner = GMA
+		owner = MON
 		add_core_of = GMA
+		add_core_of = MON
 		
 		buildings = {
 			infrastructure = 2
