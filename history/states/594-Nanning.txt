@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		owner = GDC
-		add_core_of = GDC
+		owner = GXC
+		add_core_of = GXC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
