@@ -4,8 +4,8 @@ state={
 	name="STATE_607"
 
 	history={
-		owner = ZHL
-		add_core_of = ZHL
+		owner = CCP
+		add_core_of = CCP
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
