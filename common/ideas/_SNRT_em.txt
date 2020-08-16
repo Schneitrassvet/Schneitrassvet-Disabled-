@@ -1,6 +1,19 @@
 ideas = {
 	
 	economy_minister = {
-	}
-		
+		USA_Hjlamar_Peterson_em_rso = {
+			allowed = { original_tag = USA }
+			available = {
+				always = no
+				custom_trigger_tooltip = {
+					tooltip = ministers_available
+				}
+			}
+			traits = {
+				economy_minister_minister
+				radical_socialist_trait
+				
+			}
+		}
+	}	
 }

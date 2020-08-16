@@ -62,4 +62,11 @@ spriteTypes = {
 		name = "GFX_idea_PER_rebelious_cossacks"
 		texturefile = "gfx/interface/ideas/national_spirits/PER/idea_PER_rebelious_cossacks.dds"
 	}
+	
+	### USA ###
+	
+	spriteType = {
+		name = "GFX_idea_USA_vice_president_philip_la_pollette"
+		texturefile = "gfx/interface/ideas/national_spirits/USA/USA_vice_president_philip_la_pollette.dds"
+	}
 }

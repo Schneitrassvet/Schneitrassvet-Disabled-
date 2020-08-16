@@ -1,6 +1,20 @@
 ideas = {
 	
 	foreign_minister = {
+		USA_George_William_Norris_fm_rso = {
+			allowed = { original_tag = USA }
+			available = {
+				always = no
+				custom_trigger_tooltip = {
+					tooltip = ministers_available
+				}
+			}
+			traits = {
+				foreign_minister
+				radical_socialist_trait
+				
+			}
+		}
 	}
 		
 }

@@ -1,6 +1,20 @@
 ideas = {
 
 	head_of_intelligence = {
+		USA_John_Edgar_Hoover_hoi_aud = {
+			allowed = { original_tag = USA }
+			available = {
+				always = no
+				custom_trigger_tooltip = {
+					tooltip = ministers_available
+				}
+			}
+			traits = {
+				head_of_intelligence
+				authoritarian_democrat_trait
+				
+			}
+		}
 	}
 		
 }

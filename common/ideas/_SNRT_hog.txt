@@ -381,6 +381,35 @@ JAP_Suzuki_Mosaburo_hog_lso = {
         }
     }
 	
+	USA_William_Borah_hog_rso = {
+		allowed = { original_tag = USA }
+		available = {
+			always = no
+			custom_trigger_tooltip = {
+				tooltip = ministers_available
+			}
+		}
+		traits = {
+			head_of_government
+			radical_socialism_trait
+			
+		}
+    }
+	USA_Philip_La_Follette_hog_rso = {
+		allowed = { original_tag = USA }
+		available = {
+			always = no
+			custom_trigger_tooltip = {
+				tooltip = ministers_available
+			}
+		}
+		traits = {
+			head_of_government
+			radical_socialism_trait
+			
+		}
+	}
+	
 	}
 		
 }

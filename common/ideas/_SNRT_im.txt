@@ -1,6 +1,20 @@
 ideas = {
 
 	interior_minister = {
+		USA_Elmer_Austin_Benson_im_rso = {
+			allowed = { original_tag = USA }
+			available = {
+				always = no
+				custom_trigger_tooltip = {
+					tooltip = ministers_available
+				}
+			}
+			traits = {
+				interior_minister_minister
+				radical_socialist_trait
+				
+			}
 		}
+	}
 		
 }

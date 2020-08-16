@@ -1,0 +1,153 @@
+ideas = {
+
+	country = {
+		USA_great_depression = {
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			removal_cost = -1
+			picture = chi_wargaming_division
+			
+			modifier = {
+				industrial_capacity_factory = -0.30
+				consumer_goods_factor = 0.20
+				production_speed_buildings_factor = -0.20
+				production_factory_max_efficiency_factor = -0.20
+				stability_factor = -0.10
+			}
+		}
+		USA_sothernist_problem = {
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			removal_cost = -1
+			picture = chi_wargaming_division
+			
+			modifier = {
+				production_speed_arms_factory_factor = -0.15
+				stability_factor = -0.10
+				production_factory_max_efficiency_factor = -0.10
+				political_power_factor = -0.10
+				despotism_drift = 0.08
+				state_totalism_drift = 0.08
+			}
+		}
+		USA_national_security_act = {
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			removal_cost = -1
+			picture = chi_wargaming_division
+			
+			modifier = {
+				drift_defence_factor = 0.30
+				stability_factor = 0.5
+				war_support_factor = -0.10
+				intelligence_agency_defense = 0.20
+				despotism_drift = -0.04
+				state_totalism_drift = -0.04
+			}
+		}
+		USA_lpto = {
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			removal_cost = -1
+			picture = chi_wargaming_division
+			
+			modifier = {
+				faction_trade_opinion_factor = 0.20
+				min_export = 0.15
+				industrial_capacity_factory = 0.12
+				production_speed_buildings_factor = 0.10
+				consumer_goods_factor = -0.8
+			}
+		}
+		USA_excessive_military_proliferation = {
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			removal_cost = -1
+			picture = chi_wargaming_division
+			
+			modifier = {
+				conversion_cost_civ_to_mil_factor = -0.35
+				war_support_factor = 0.05
+				consumer_goods_factor = 0.05
+				stability_factor = -0.05
+			}
+		}
+		USA_legacy_of_progressivism = {
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			removal_cost = -1
+			picture = chi_wargaming_division
+			
+			modifier = {
+				political_power_factor = 0.15
+				stability_factor = 0.10
+				industrial_capacity_factory = 0.10
+				production_speed_buildings_factor = -0.10
+				consumer_goods_factor = -0.10
+			}
+		}
+		USA_crisis_of_white_house = {
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			removal_cost = -1
+			picture = chi_wargaming_division
+			
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = -0.05
+				radical_socialism_drift = -0.15
+			}
+		}
+		USA_fail_stick_foreign = {
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			removal_cost = -1
+			picture = chi_wargaming_division
+			
+			modifier = {
+				min_export = -0.25
+				boost_ideology_mission_factor = -0.25
+				resistance_growth = 0.25
+				trade_opinion_factor = -0.15
+			}
+		}
+		USA_vice_president_philip_la_follette = {
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			removal_cost = -1
+			picture = USA_vice_president_philip_la_pollette
+			
+			modifier = {
+				stability_factor = 0.04
+				war_support_factor = -0.02
+				political_power_factor = 0.02
+			}
+		}
+     }
