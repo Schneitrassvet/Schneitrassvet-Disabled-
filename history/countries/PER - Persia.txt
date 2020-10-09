@@ -17,7 +17,7 @@ set_stability = 0.60
 set_war_support = 0.60
 
 set_politics = {
-	ruling_party = marxism
+	ruling_party = revolutionary_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -31,14 +31,14 @@ add_ideas = {
 }
 
 set_popularities = {
-	national_socialism = 16
-	marxism = 37
+	state_socialism = 16
+	revolutionary_socialism = 37
 	liberal_socialism = 5
 	social_democracy = 21
 	liberal_democracy = 6
 	conservatism = 10
 	authoritarian = 5
-	paternal_autocracy = 0
+	despotism = 0
 	state_totalism = 0
 }
 
@@ -47,7 +47,7 @@ create_country_leader = {
 	desc = "POLITICS_MIRZA_KUCHIK_KHAN_DESC"
 	picture = "gfx/leaders/PER/Portrait_Mirza_Kuchik_Khan.dds"
 	expire = "1965.1.1"
-	ideology = marxism_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}
@@ -58,7 +58,7 @@ create_country_leader = {
 #	desc = "POLITICS_ABOLGHASEM_KASHANI_DESC"
 #	picture = "gfx/leaders/PER/Portrait_Abolghasem_Kashani.dds"
 #	expire = "1936.4.24" #Died by accident
-#	ideology = national_socialism_subtype
+#	ideology = state_socialism_subtype
 #	traits = {
 #		#
 #	}
@@ -69,7 +69,7 @@ create_country_leader = {
 	desc = "POLITICS_MOHAMMAD_MOSADDEGH_DESC"
 	picture = "gfx/leaders/PER/Portrait_Mohammad_Mosaddegh.dds"
 	expire = "1965.1.1"
-	ideology = national_socialism_subtype
+	ideology = state_socialism_subtype
 	traits = {
 		#
 	}
